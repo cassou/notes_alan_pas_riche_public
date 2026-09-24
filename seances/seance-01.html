@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Séance 01 — La Faille de Waterdeep · Campagne</title>
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<button class="menu-toggle" onclick="document.body.classList.toggle('nav-open')" aria-label="Menu">☰</button>
+<aside class="sidebar">
+  <div class="search"><input id="q" type="search" placeholder="Rechercher… ( / )" autocomplete="off"><ul id="results"></ul></div>
+  <nav><a class="home" href="../index.html">🎲 Campagne</a><a class="extra" href="../chronologie.html">Chronologie</a><a class="extra" href="../questions-ouvertes.html">Questions ouvertes</a><details open><summary><a href="../seances/index.html">📜 Séances</a><span class="count">6</span></summary><ul><li><a href="../seances/seance-06.html">Séance 06 — Les guides de Port Nyanzaru</a></li><li><a href="../seances/seance-05.html">Séance 05 — Port Nyanzaru</a></li><li><a href="../seances/seance-04.html">Séance 04 — L&#x27;Effleureuse</a></li><li><a href="../seances/seance-03.html">Séance 03 — Les Faiseurs de Veuves</a></li><li><a href="../seances/seance-02.html">Séance 02 — La route de Phandalin</a></li><li><a href="../seances/seance-01.html" class=current>Séance 01 — La Faille de Waterdeep</a></li></ul></details><details><summary><a href="../quetes/index.html">🗺️ Quêtes</a><span class="count">3</span></summary><ul><li><a href="../quetes/le-gardien-bouclier.html">Le Gardien Bouclier</a></li><li><a href="../quetes/le-mal-des-ressuscites.html">Le mal des ressuscités</a></li><li><a href="../quetes/rejoindre-phandalin.html">Rejoindre Phandalin</a></li></ul></details><details><summary><a href="../personnages/index.html">🛡️ Personnages</a><span class="count">4</span></summary><ul><li><a href="../personnages/destos.html">Destos</a></li><li><a href="../personnages/kael.html">Kael</a></li><li><a href="../personnages/morrys.html">Morrÿs</a></li><li><a href="../personnages/obelik.html">Obélik</a></li></ul></details><details><summary><a href="../pnj/index.html">👤 PNJ</a><span class="count">17</span></summary><ul><li><a href="../pnj/alan.html">Alan</a></li><li><a href="../pnj/arlan.html">Arlan</a></li><li><a href="../pnj/corrin-thinspike.html">Corrin Thinspike</a></li><li><a href="../pnj/corvis-quillfore.html">Corvis Quillfore</a></li><li><a href="../pnj/jeanne-von-brocht.html">Jeanne Von Brocht</a></li><li><a href="../pnj/kaya.html">Kaya</a></li><li><a href="../pnj/la-creature-invisible.html">La créature invisible</a></li><li><a href="../pnj/la-paire.html">La Paire</a></li><li><a href="../pnj/le-capitaine-de-la-bite.html">Le capitaine de la BITE</a></li><li><a href="../pnj/le-domestique-de-wakanga.html">Le domestique de Wakanga</a></li><li><a href="../pnj/lyra-sunstrike.html">Lyra Sunstrike</a></li><li><a href="../pnj/neverember.html">Neverember</a></li><li><a href="../pnj/river-mist-et-flask-of-wine.html">River Mist et Flask of Wine</a></li><li><a href="../pnj/syndra.html">Syndra</a></li><li><a href="../pnj/virgile.html">Virgile</a></li><li><a href="../pnj/wakanga-o-tamu.html">Wakanga O&#x27;Tamu</a></li><li><a href="../pnj/yarno-el-raib.html">Yarno El Raïb</a></li></ul></details><details><summary><a href="../lieux/index.html">🏰 Lieux</a><span class="count">11</span></summary><ul><li><a href="../lieux/chult.html">Chult</a></li><li><a href="../lieux/fort-beluarian.html">Fort Beluarian</a></li><li><a href="../lieux/leilon.html">Leilon</a></li><li><a href="../lieux/maison-de-repos-de-kaya.html">Maison de repos de Kaya</a></li><li><a href="../lieux/phandalin.html">Phandalin</a></li><li><a href="../lieux/port-nyanzaru.html">Port Nyanzaru</a></li><li><a href="../lieux/prison-de-waterdeep.html">Prison de Waterdeep</a></li><li><a href="../lieux/qg-des-faiseurs-de-veuves.html">QG des Faiseurs de Veuves</a></li><li><a href="../lieux/temple-de-gond.html">Temple de Gond</a></li><li><a href="../lieux/villa-de-wakanga-o-tamu.html">Villa de Wakanga O&#x27;Tamu</a></li><li><a href="../lieux/waterdeep.html">Waterdeep</a></li></ul></details><details><summary><a href="../factions/index.html">⚜️ Factions</a><span class="count">6</span></summary><ul><li><a href="../factions/brigade-d-intervention-technique-et-expeditive.html">Brigade d&#x27;Intervention Technique et Expéditive</a></li><li><a href="../factions/enclave-d-emeraude.html">Enclave d&#x27;Émeraude</a></li><li><a href="../factions/faiseurs-de-veuves.html">Faiseurs de Veuves</a></li><li><a href="../factions/guilde-des-guides.html">Guilde des guides</a></li><li><a href="../factions/princes-marchands.html">Princes marchands</a></li><li><a href="../factions/zhentarim.html">Zhentarim</a></li></ul></details><details><summary><a href="../objets/index.html">💎 Objets</a><span class="count">4</span></summary><ul><li><a href="../objets/gardien-bouclier.html">Gardien Bouclier</a></li><li><a href="../objets/journal-de-la-naine.html">Journal de la naine</a></li><li><a href="../objets/l-effleureuse.html">L&#x27;Effleureuse</a></li><li><a href="../objets/soulmonger.html">Soulmonger</a></li></ul></details></nav>
+  <p class="generated">Généré le 24/09/2026 à 12:22 (commit 9c76514)</p>
+</aside>
+<main><header class="page-head"><span class="kind">📜 Séances</span><h1>Séance 01 — La Faille de Waterdeep</h1></header><nav class="prevnext"><span></span><a href="../seances/seance-02.html">Séance 02 — La route de Phandalin →</a></nav><table class="props"><tr><th>numero</th><td>1</td></tr><tr><th>date</th><td>15/07/2026</td></tr><tr><th>resume</th><td>Réveillés en cellule, Kael, Morrÿs et Obélik s'évadent de la prison de Waterdeep envahie par des kobolds, avec Alan, et sont sauvés d'une créature invisible par un mystérieux halfelin.</td></tr><tr><th>lieux</th><td><a class="wl cat-lieux" href="../lieux/prison-de-waterdeep.html">Prison de Waterdeep</a>, <a class="wl cat-lieux" href="../lieux/waterdeep.html">Waterdeep</a></td></tr><tr><th>pnj</th><td><a class="wl cat-pnj" href="../pnj/alan.html">Alan</a>, <a class="wl cat-pnj" href="../pnj/virgile.html">Virgile</a>, <a class="wl cat-pnj" href="../pnj/corrin-thinspike.html">Corrin Thinspike</a>, <a class="wl cat-pnj" href="../pnj/la-creature-invisible.html">La créature invisible</a></td></tr></table><article><h2 id="resume-rapide">Résumé rapide</h2>
+<p>La dernière fois, <a class="wl cat-personnages" href="../personnages/kael.html">Kael</a>, <a class="wl cat-personnages" href="../personnages/morrys.html">Morrÿs</a> et <a class="wl cat-personnages" href="../personnages/obelik.html">Obélik</a> se sont réveillés dans une cellule de la <a class="wl cat-lieux" href="../lieux/prison-de-waterdeep.html">Prison de Waterdeep</a>, sans savoir pourquoi. Profitant d'une invasion de kobolds, on s'est évadés avec <a class="wl cat-pnj" href="../pnj/alan.html">Alan</a>, un tavernier. On a vu une faille sans fond, une fosse commune, et on a gravi un escalier-toboggan à la corde et aux pitons, sans jamais utiliser le code trouvé sur un garde. Dans le hall, on a aidé le capitaine de la prison contre les kobolds ; il a décidé de nous laisser partir. Dehors, une créature invisible l'a transpercé. Morrÿs a servi d'appât, et un vieux halfelin l'a abattue d'une flèche : « Sale bête. » Il a soigné le capitaine, a semblé reconnaître Alan, nous a conseillé de fuir vers <a class="wl cat-lieux" href="../lieux/phandalin.html">Phandalin</a>, puis est reparti dans la prison en marchant au plafond.</p>
+<h2 id="resume">Résumé</h2>
+<p>Séance d'initiation. <a class="wl cat-personnages" href="../personnages/kael.html">Kael</a>, <a class="wl cat-personnages" href="../personnages/morrys.html">Morrÿs</a> et <a class="wl cat-personnages" href="../personnages/obelik.html">Obélik</a> se réveillent dans une cellule de la
+<a class="wl cat-lieux" href="../lieux/prison-de-waterdeep.html">Prison de Waterdeep</a> sans savoir comment ils y sont arrivés ; chacun estime y avoir été jeté à tort.
+Ils sortent de la cellule et profitent du chaos : des kobolds ont envahi la prison. Dans une salle des
+gardes servant de stockage d'armes, ils rencontrent <a class="wl cat-pnj" href="../pnj/alan.html">Alan</a>, un tavernier de <a class="wl cat-lieux" href="../lieux/waterdeep.html">Waterdeep</a> lui aussi évadé.</p>
+<p>Une immense faille dont on ne voit pas le fond s'ouvre dans la salle. Plus loin, une fosse commune
+remplie de cadavres (« ça sent la chèvre en décomposition », selon Kael). Pour atteindre le hall, il faut
+gravir un escalier magique de 50 à 100 marches qui se change en toboggan et déclenche une alarme dès
+qu'on s'y engage. Le groupe a trouvé un code sur le cadavre d'un garde au pied de l'escalier… mais ne
+s'en sert pas : il monte à la corde et aux pitons, marche après marche.</p>
+<p>Dans le hall, le capitaine de la garde (<a class="wl cat-pnj" href="../pnj/virgile.html">Virgile</a>, nom appris à la séance suivante) combat seul une
+horde de kobolds, dont certains ailés ; le groupe l'aide à en finir. Il comprend vite qu'il a affaire à
+des évadés (un bluff échoue), mais la prison n'étant plus sûre, il décide de les laisser partir.
+Dehors, une <a class="wl cat-pnj" href="../pnj/la-creature-invisible.html">créature invisible</a> le transperce d'une épée. Le groupe le soigne,
+elle frappe à nouveau et il s'effondre ; les évadés se réfugient dans le hall. Une petite voix dans leur
+tête propose un plan : Morrÿs ressort servir d'appât. La créature apparaît une fraction de seconde,
+épée levée… et une flèche la tue net.</p>
+<p>Le tireur est un halfelin d'une soixantaine d'années (<a class="wl cat-pnj" href="../pnj/corrin-thinspike.html">Corrin Thinspike</a>, nom appris en
+<a class="wl cat-seances" href="../seances/seance-03.html">Séance 03</a>) : « Sale bête. » Il soigne le capitaine, semble reconnaître Alan — qui nie le connaître —
+et juge anormale la présence d'une créature aussi puissante ici. Il conseille au groupe de quitter
+Waterdeep pour <a class="wl cat-lieux" href="../lieux/phandalin.html">Phandalin</a>, puis retourne dans la prison, les mains dans les poches, en marchant sur
+les murs puis au plafond, pour « faire un peu de ménage ».</p>
+<p><a href="../assets/seances/01/Sorti_daffaire.png" class="img"><img src="../assets/seances/01/Sorti_daffaire.png" alt="Sorti_daffaire" width="500" loading="lazy"></a></p>
+<h2 id="chronologie">Chronologie</h2>
+<ol>
+<li>Réveil en cellule, évasion.</li>
+<li>Rencontre d'<a class="wl cat-pnj" href="../pnj/alan.html">Alan</a> dans la salle des gardes ; la faille.</li>
+<li>Fosse commune.</li>
+<li>Escalier-toboggan gravi à la corde et aux pitons (code du garde inutilisé).</li>
+<li>Combat contre les kobolds aux côtés du capitaine.</li>
+<li>Le capitaine laisse partir le groupe ; attaque de la créature invisible.</li>
+<li>Morrÿs sert d'appât ; le halfelin tue la créature, soigne le capitaine, conseille <a class="wl cat-lieux" href="../lieux/phandalin.html">Phandalin</a>.</li>
+</ol>
+<h2 id="pnj-rencontres">PNJ rencontrés</h2>
+<ul>
+<li><a class="wl cat-pnj" href="../pnj/alan.html">Alan</a> : tavernier évadé, rejoint le groupe.</li>
+<li><a class="wl cat-pnj" href="../pnj/virgile.html">Virgile</a> : capitaine de la garde de la prison, laisse partir le groupe.</li>
+<li><a class="wl cat-pnj" href="../pnj/corrin-thinspike.html">Corrin Thinspike</a> : halfelin mystérieux, tue la créature invisible.</li>
+<li><a class="wl cat-pnj" href="../pnj/la-creature-invisible.html">La créature invisible</a> : attaque le capitaine, tuée d'une flèche.</li>
+</ul>
+<h2 id="quetes">Quêtes</h2>
+<ul>
+<li><a class="wl cat-quetes" href="../quetes/rejoindre-phandalin.html">Rejoindre Phandalin</a> : nouvelle (conseil du halfelin).</li>
+</ul>
+<h2 id="butin-et-recompenses">Butin et récompenses</h2>
+<ul>
+<li>Un code trouvé sur un garde mort (non utilisé).</li>
+</ul>
+<h2 id="citations-et-moments-marquants">Citations et moments marquants</h2>
+<blockquote>
+<p>« Sale bête. » — le halfelin, après avoir tué la créature invisible</p>
+</blockquote>
+<ul>
+<li>Kael : la fosse commune « sent la chèvre en décomposition ».</li>
+<li>L'ascension de l'escalier-toboggan, piton après piton, sans jamais utiliser le code.</li>
+</ul>
+<h2 id="questions-ouvertes">Questions ouvertes</h2>
+<ul>
+<li class="task"><input type="checkbox" disabled> Comment le groupe est-il arrivé en prison ?</li>
+<li class="task"><input type="checkbox" disabled> D'où vient la faille, et pourquoi des kobolds envahissent-ils la prison ?</li>
+<li class="task"><input type="checkbox" disabled> Qui était la petite voix dans leur tête ?</li>
+<li class="task"><input type="checkbox" disabled> Qui a envoyé la créature invisible, et pourquoi ?</li>
+</ul>
+<h2 id="sources">Sources</h2>
+<ul>
+<li>Récit du collègue : <code>sources/alan-pas-riche/chapter/0001_la_prison.tex</code></li>
+</ul></article><section class="backlinks"><h2>🔗 Mentionné dans</h2><div class="bl-grid"><div><h4>Quêtes</h4><ul><li><a href="../quetes/rejoindre-phandalin.html">Rejoindre Phandalin</a></li></ul></div><div><h4>Personnages</h4><ul><li><a href="../personnages/kael.html">Kael</a></li><li><a href="../personnages/morrys.html">Morrÿs</a></li><li><a href="../personnages/obelik.html">Obélik</a></li></ul></div><div><h4>PNJ</h4><ul><li><a href="../pnj/alan.html">Alan</a></li><li><a href="../pnj/corrin-thinspike.html">Corrin Thinspike</a></li><li><a href="../pnj/la-creature-invisible.html">La créature invisible</a></li><li><a href="../pnj/virgile.html">Virgile</a></li></ul></div><div><h4>Lieux</h4><ul><li><a href="../lieux/prison-de-waterdeep.html">Prison de Waterdeep</a></li><li><a href="../lieux/waterdeep.html">Waterdeep</a></li></ul></div><div><h4>Pages</h4><ul><li><a href="../chronologie.html">Chronologie</a></li><li><a href="../questions-ouvertes.html">Questions ouvertes</a></li></ul></div></div></section><nav class="prevnext"><span></span><a href="../seances/seance-02.html">Séance 02 — La route de Phandalin →</a></nav></main>
+<script>window.SITE_PREFIX = "../";</script>
+<script src="../search.js"></script>
+</body>
+</html>

@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Séance 03 — Les Faiseurs de Veuves · Campagne</title>
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<button class="menu-toggle" onclick="document.body.classList.toggle('nav-open')" aria-label="Menu">☰</button>
+<aside class="sidebar">
+  <div class="search"><input id="q" type="search" placeholder="Rechercher… ( / )" autocomplete="off"><ul id="results"></ul></div>
+  <nav><a class="home" href="../index.html">🎲 Campagne</a><a class="extra" href="../chronologie.html">Chronologie</a><a class="extra" href="../questions-ouvertes.html">Questions ouvertes</a><details open><summary><a href="../seances/index.html">📜 Séances</a><span class="count">6</span></summary><ul><li><a href="../seances/seance-06.html">Séance 06 — Les guides de Port Nyanzaru</a></li><li><a href="../seances/seance-05.html">Séance 05 — Port Nyanzaru</a></li><li><a href="../seances/seance-04.html">Séance 04 — L&#x27;Effleureuse</a></li><li><a href="../seances/seance-03.html" class=current>Séance 03 — Les Faiseurs de Veuves</a></li><li><a href="../seances/seance-02.html">Séance 02 — La route de Phandalin</a></li><li><a href="../seances/seance-01.html">Séance 01 — La Faille de Waterdeep</a></li></ul></details><details><summary><a href="../quetes/index.html">🗺️ Quêtes</a><span class="count">3</span></summary><ul><li><a href="../quetes/le-gardien-bouclier.html">Le Gardien Bouclier</a></li><li><a href="../quetes/le-mal-des-ressuscites.html">Le mal des ressuscités</a></li><li><a href="../quetes/rejoindre-phandalin.html">Rejoindre Phandalin</a></li></ul></details><details><summary><a href="../personnages/index.html">🛡️ Personnages</a><span class="count">4</span></summary><ul><li><a href="../personnages/destos.html">Destos</a></li><li><a href="../personnages/kael.html">Kael</a></li><li><a href="../personnages/morrys.html">Morrÿs</a></li><li><a href="../personnages/obelik.html">Obélik</a></li></ul></details><details><summary><a href="../pnj/index.html">👤 PNJ</a><span class="count">17</span></summary><ul><li><a href="../pnj/alan.html">Alan</a></li><li><a href="../pnj/arlan.html">Arlan</a></li><li><a href="../pnj/corrin-thinspike.html">Corrin Thinspike</a></li><li><a href="../pnj/corvis-quillfore.html">Corvis Quillfore</a></li><li><a href="../pnj/jeanne-von-brocht.html">Jeanne Von Brocht</a></li><li><a href="../pnj/kaya.html">Kaya</a></li><li><a href="../pnj/la-creature-invisible.html">La créature invisible</a></li><li><a href="../pnj/la-paire.html">La Paire</a></li><li><a href="../pnj/le-capitaine-de-la-bite.html">Le capitaine de la BITE</a></li><li><a href="../pnj/le-domestique-de-wakanga.html">Le domestique de Wakanga</a></li><li><a href="../pnj/lyra-sunstrike.html">Lyra Sunstrike</a></li><li><a href="../pnj/neverember.html">Neverember</a></li><li><a href="../pnj/river-mist-et-flask-of-wine.html">River Mist et Flask of Wine</a></li><li><a href="../pnj/syndra.html">Syndra</a></li><li><a href="../pnj/virgile.html">Virgile</a></li><li><a href="../pnj/wakanga-o-tamu.html">Wakanga O&#x27;Tamu</a></li><li><a href="../pnj/yarno-el-raib.html">Yarno El Raïb</a></li></ul></details><details><summary><a href="../lieux/index.html">🏰 Lieux</a><span class="count">11</span></summary><ul><li><a href="../lieux/chult.html">Chult</a></li><li><a href="../lieux/fort-beluarian.html">Fort Beluarian</a></li><li><a href="../lieux/leilon.html">Leilon</a></li><li><a href="../lieux/maison-de-repos-de-kaya.html">Maison de repos de Kaya</a></li><li><a href="../lieux/phandalin.html">Phandalin</a></li><li><a href="../lieux/port-nyanzaru.html">Port Nyanzaru</a></li><li><a href="../lieux/prison-de-waterdeep.html">Prison de Waterdeep</a></li><li><a href="../lieux/qg-des-faiseurs-de-veuves.html">QG des Faiseurs de Veuves</a></li><li><a href="../lieux/temple-de-gond.html">Temple de Gond</a></li><li><a href="../lieux/villa-de-wakanga-o-tamu.html">Villa de Wakanga O&#x27;Tamu</a></li><li><a href="../lieux/waterdeep.html">Waterdeep</a></li></ul></details><details><summary><a href="../factions/index.html">⚜️ Factions</a><span class="count">6</span></summary><ul><li><a href="../factions/brigade-d-intervention-technique-et-expeditive.html">Brigade d&#x27;Intervention Technique et Expéditive</a></li><li><a href="../factions/enclave-d-emeraude.html">Enclave d&#x27;Émeraude</a></li><li><a href="../factions/faiseurs-de-veuves.html">Faiseurs de Veuves</a></li><li><a href="../factions/guilde-des-guides.html">Guilde des guides</a></li><li><a href="../factions/princes-marchands.html">Princes marchands</a></li><li><a href="../factions/zhentarim.html">Zhentarim</a></li></ul></details><details><summary><a href="../objets/index.html">💎 Objets</a><span class="count">4</span></summary><ul><li><a href="../objets/gardien-bouclier.html">Gardien Bouclier</a></li><li><a href="../objets/journal-de-la-naine.html">Journal de la naine</a></li><li><a href="../objets/l-effleureuse.html">L&#x27;Effleureuse</a></li><li><a href="../objets/soulmonger.html">Soulmonger</a></li></ul></details></nav>
+  <p class="generated">Généré le 24/09/2026 à 12:22 (commit 9c76514)</p>
+</aside>
+<main><header class="page-head"><span class="kind">📜 Séances</span><h1>Séance 03 — Les Faiseurs de Veuves</h1></header><nav class="prevnext"><a href="../seances/seance-02.html">← Séance 02 — La route de Phandalin</a><a href="../seances/seance-04.html">Séance 04 — L&#x27;Effleureuse →</a></nav><table class="props"><tr><th>numero</th><td>3</td></tr><tr><th>date</th><td>01/09/2026</td></tr><tr><th>resume</th><td>Au QG des Faiseurs de Veuves, Yarno El Raïb met le groupe à l'épreuve contre Lyra puis l'envoie à Chult chercher le Gardien Bouclier de Wakanga O'Tamu, avec Destos.</td></tr><tr><th>lieux</th><td><a class="wl cat-lieux" href="../lieux/qg-des-faiseurs-de-veuves.html">QG des Faiseurs de Veuves</a>, <a class="wl cat-lieux" href="../lieux/phandalin.html">Phandalin</a></td></tr><tr><th>pnj</th><td><a class="wl cat-pnj" href="../pnj/lyra-sunstrike.html">Lyra Sunstrike</a>, <a class="wl cat-pnj" href="../pnj/yarno-el-raib.html">Yarno El Raïb</a>, <a class="wl cat-pnj" href="../pnj/alan.html">Alan</a>, <a class="wl cat-pnj" href="../pnj/virgile.html">Virgile</a></td></tr></table><article><h2 id="resume-rapide">Résumé rapide</h2>
+<p>La dernière fois, au QG des <a class="wl cat-factions" href="../factions/faiseurs-de-veuves.html">Faiseurs de Veuves</a>, l'elfe, <a class="wl cat-pnj" href="../pnj/lyra-sunstrike.html">Lyra</a>, nous a présentés à <a class="wl cat-pnj" href="../pnj/yarno-el-raib.html">Yarno El Raïb</a>. Le halfelin de la prison, <a class="wl cat-pnj" href="../pnj/corrin-thinspike.html">Corrin Thinspike</a>, nous avait recommandés. La guilde neutralise les objets magiques dangereux et veut faire tomber la lord <a class="wl cat-pnj" href="../pnj/jeanne-von-brocht.html">Jeanne Von Brocht</a>. Comme on ne peut rester ni à Waterdeep ni à Phandalin, Yarno nous envoie à <a class="wl cat-lieux" href="../lieux/chult.html">Chult</a> : le prince marchand <a class="wl cat-pnj" href="../pnj/wakanga-o-tamu.html">Wakanga O&#x27;Tamu</a> cherche un <a class="wl cat-objets" href="../objets/gardien-bouclier.html">Gardien Bouclier</a> et son amulette. Nos contacts sur place : les sœurs Vesper, <a class="wl cat-pnj" href="../pnj/la-paire.html">La Paire</a>. On a passé l'épreuve contre Lyra, et le poignard de Morrÿs a fini au plafond. On a reçu 50 po, une potion de soin et une antipoison chacun. <a class="wl cat-personnages" href="../personnages/destos.html">Destos</a>, un clerc, part avec nous. Alan reste aux cuisines ; Virgile rentre à Waterdeep. Départ à l'aube.</p>
+<h2 id="resume">Résumé</h2>
+<p>L'elfe fait entrer le groupe dans la vaste demeure hors de <a class="wl cat-lieux" href="../lieux/phandalin.html">Phandalin</a> : c'est le
+<a class="wl cat-lieux" href="../lieux/qg-des-faiseurs-de-veuves.html">QG des Faiseurs de Veuves</a>. Près de la porte, <a class="wl cat-personnages" href="../personnages/morrys.html">Morrÿs</a> et <a class="wl cat-personnages" href="../personnages/obelik.html">Obélik</a> reconnaissent l'étoile à
+huit branches, emblème de la guilde. Dans le patio, elle appelle <a class="wl cat-pnj" href="../pnj/yarno-el-raib.html">Yarno El Raïb</a> et le groupe
+apprend enfin son nom : <a class="wl cat-pnj" href="../pnj/lyra-sunstrike.html">Lyra</a>. Yarno discute avec un homme chauve, <a class="wl cat-personnages" href="../personnages/destos.html">Destos</a>.
+Il sait déjà qui ils sont : le halfelin de la prison, <a class="wl cat-pnj" href="../pnj/corrin-thinspike.html">Corrin Thinspike</a>, l'a prévenu et les a recommandés.</p>
+<p>Le groupe raconte son arrestation et son évasion ; l'évocation de « l'autre connasse »
+(<a class="wl cat-pnj" href="../pnj/jeanne-von-brocht.html">Jeanne Von Brocht</a>) fait rire Yarno : elle arrête les gens à tour de bras et la guilde réunit des
+preuves pour la faire tomber. Impossible de retourner à <a class="wl cat-lieux" href="../lieux/waterdeep.html">Waterdeep</a>, et rester à Phandalin
+attirerait des ennuis à la guilde : il faut partir. Yarno explique le vrai rôle des
+<a class="wl cat-factions" href="../factions/faiseurs-de-veuves.html">Faiseurs de Veuves</a> : retrouver les objets magiques dangereux, les neutraliser, voire les détruire.
+Il propose une mission à <a class="wl cat-lieux" href="../lieux/chult.html">Chult</a> : le prince marchand <a class="wl cat-pnj" href="../pnj/wakanga-o-tamu.html">Wakanga O&#x27;Tamu</a> cherche un
+<a class="wl cat-objets" href="../objets/gardien-bouclier.html">Gardien Bouclier</a> et l'amulette qui le contrôle. Contacts sur place : <a class="wl cat-pnj" href="../pnj/la-paire.html">Iolka et Nera Vesper</a>,
+« la Paire », vigies de la guilde qui logent chez Wakanga. À Chult, le groupe agira en son nom
+propre, pas au nom de la guilde : trésors abandonnés autorisés, vol interdit.</p>
+<p>Épreuve au sous-sol : toucher trois fois Lyra, qui se bat à mains nues et vide l'énergie de ses
+cibles d'un coup de paume. Obélik, Destos puis <a class="wl cat-personnages" href="../personnages/kael.html">Kael</a> sont touchés, Obélik et Kael finissent au sol.
+Obélik la touche puis l'immobilise, Destos l'atteint d'un sort : objectif rempli. Le poignard de
+Morrÿs, lancé deux fois, est dévié dans un mur puis planté dans le plafond (« l'inconvénient des
+armes de jet », dixit Yarno) ; Obélik saute pour le récupérer.</p>
+<p><a href="../assets/seances/03/essai-qg-fdv.png" class="img"><img src="../assets/seances/03/essai-qg-fdv.png" alt="essai-qg-fdv" width="500" loading="lazy"></a>
+<a href="../assets/seances/03/essai-qg-fdv-v2.png" class="img"><img src="../assets/seances/03/essai-qg-fdv-v2.png" alt="essai-qg-fdv-v2" width="500" loading="lazy"></a></p>
+<p>Chambres à l'étage, avec terrasse plein sud : au loin, la montagne où ils étaient emprisonnés.
+Au jardin, quatre statues des fondateurs de la guilde, née à Phandalin il y a une trentaine d'années ;
+Yarno a été envoyé en prison, il y a des années, par l'un d'eux. Chacun reçoit 50 po, une potion de
+soin et une potion antipoison ; Yarno remettra une carte de Chult et une photo de la Paire. Départ à
+l'aube, 21 jours de mer (jusqu'à 40 si le temps est mauvais) ; Destos est du voyage.</p>
+<p><a class="wl cat-pnj" href="../pnj/alan.html">Alan</a> prend une place dans les cuisines du QG. <a class="wl cat-pnj" href="../pnj/virgile.html">Virgile</a> retourne à Waterdeep pour ne pas passer
+pour déserteur (version officielle : les prisonniers se sont joués de lui) ; Lyra et Destos le soignent
+dans le patio. Alan cuisine un chevreuil en sauce ; Morrÿs demande du chocolat (Alan ne connaît pas) :
+le groupe promet de lui rapporter des épices de Chult. Au dîner dans le Salon Bleu, Yarno parle des
+sept <a class="wl cat-factions" href="../factions/princes-marchands.html">Princes marchands</a> qui gouvernent <a class="wl cat-lieux" href="../lieux/port-nyanzaru.html">Port Nyanzaru</a> et conseille à Destos, homme du Nord,
+d'alléger sa tenue.</p>
+<h2 id="chronologie">Chronologie</h2>
+<ol>
+<li>Entrée au QG, rencontre de <a class="wl cat-pnj" href="../pnj/yarno-el-raib.html">Yarno El Raïb</a> et <a class="wl cat-personnages" href="../personnages/destos.html">Destos</a> ; le nom de Lyra.</li>
+<li>Recommandation de <a class="wl cat-pnj" href="../pnj/corrin-thinspike.html">Corrin Thinspike</a> ; Jeanne Von Brocht visée par la guilde.</li>
+<li>Proposition de la mission du <a class="wl cat-objets" href="../objets/gardien-bouclier.html">Gardien Bouclier</a> à <a class="wl cat-lieux" href="../lieux/chult.html">Chult</a>.</li>
+<li>Épreuve contre <a class="wl cat-pnj" href="../pnj/lyra-sunstrike.html">Lyra Sunstrike</a> : réussie.</li>
+<li>Chambres, jardin des quatre fondateurs, remise de l'équipement.</li>
+<li>Alan aux cuisines, Virgile repart vers Waterdeep.</li>
+<li>Dîner au Salon Bleu ; départ prévu à l'aube.</li>
+</ol>
+<h2 id="pnj-rencontres">PNJ rencontrés</h2>
+<ul>
+<li><a class="wl cat-pnj" href="../pnj/lyra-sunstrike.html">Lyra Sunstrike</a> : fait passer l'épreuve, soigne Virgile.</li>
+<li><a class="wl cat-pnj" href="../pnj/yarno-el-raib.html">Yarno El Raïb</a> : membre de la guilde, confie la mission.</li>
+<li><a class="wl cat-pnj" href="../pnj/alan.html">Alan</a> : entre aux cuisines du QG.</li>
+<li><a class="wl cat-pnj" href="../pnj/virgile.html">Virgile</a> : soigné, décide de rentrer à Waterdeep.</li>
+<li>Évoqués : <a class="wl cat-pnj" href="../pnj/corrin-thinspike.html">Corrin Thinspike</a>, <a class="wl cat-pnj" href="../pnj/jeanne-von-brocht.html">Jeanne Von Brocht</a>, <a class="wl cat-pnj" href="../pnj/wakanga-o-tamu.html">Wakanga O&#x27;Tamu</a>, <a class="wl cat-pnj" href="../pnj/la-paire.html">La Paire</a>.</li>
+</ul>
+<h2 id="quetes">Quêtes</h2>
+<ul>
+<li><a class="wl cat-quetes" href="../quetes/rejoindre-phandalin.html">Rejoindre Phandalin</a> : terminée.</li>
+<li><a class="wl cat-quetes" href="../quetes/le-gardien-bouclier.html">Le Gardien Bouclier</a> : nouvelle.</li>
+</ul>
+<h2 id="butin-et-recompenses">Butin et récompenses</h2>
+<ul>
+<li>50 po chacun, une potion de soin et une potion antipoison chacun.</li>
+<li>Promis pour le départ : une carte de Chult, une photo de la Paire.</li>
+</ul>
+<p><a href="../assets/pnj/La_Paire.png" class="img"><img src="../assets/pnj/La_Paire.png" alt="La_Paire" width="400" loading="lazy"></a></p>
+<h2 id="citations-et-moments-marquants">Citations et moments marquants</h2>
+<ul>
+<li>« L'autre connasse » fait rire Yarno.</li>
+<li>Le poignard de Morrÿs planté au plafond, récupéré par Obélik.</li>
+<li>Morrÿs réclame du chocolat.</li>
+</ul>
+<h2 id="questions-ouvertes">Questions ouvertes</h2>
+<ul>
+<li class="task"><input type="checkbox" disabled> Quel fondateur a envoyé Yarno en prison, et pourquoi ?</li>
+<li class="task"><input type="checkbox" disabled> Guilde fondée il y a une trentaine d'années, mais sa réputation « depuis une vingtaine d'années » (notes de séance 02) : cohérent ?</li>
+<li class="task"><input type="checkbox" disabled> Quels sont les pouvoirs de Lyra (vol d'énergie à mains nues) ?</li>
+</ul>
+<h2 id="sources">Sources</h2>
+<ul>
+<li>Récit du collègue : <code>sources/alan-pas-riche/chapter/0003_les_faiseurs_de_veuves.tex</code></li>
+</ul></article><section class="backlinks"><h2>🔗 Mentionné dans</h2><div class="bl-grid"><div><h4>Séances</h4><ul><li><a href="../seances/seance-01.html">Séance 01 — La Faille de Waterdeep</a></li></ul></div><div><h4>Quêtes</h4><ul><li><a href="../quetes/le-gardien-bouclier.html">Le Gardien Bouclier</a></li><li><a href="../quetes/rejoindre-phandalin.html">Rejoindre Phandalin</a></li></ul></div><div><h4>Personnages</h4><ul><li><a href="../personnages/destos.html">Destos</a></li><li><a href="../personnages/kael.html">Kael</a></li><li><a href="../personnages/morrys.html">Morrÿs</a></li><li><a href="../personnages/obelik.html">Obélik</a></li></ul></div><div><h4>PNJ</h4><ul><li><a href="../pnj/alan.html">Alan</a></li><li><a href="../pnj/corrin-thinspike.html">Corrin Thinspike</a></li><li><a href="../pnj/jeanne-von-brocht.html">Jeanne Von Brocht</a></li><li><a href="../pnj/la-paire.html">La Paire</a></li><li><a href="../pnj/lyra-sunstrike.html">Lyra Sunstrike</a></li><li><a href="../pnj/virgile.html">Virgile</a></li><li><a href="../pnj/wakanga-o-tamu.html">Wakanga O&#x27;Tamu</a></li><li><a href="../pnj/yarno-el-raib.html">Yarno El Raïb</a></li></ul></div><div><h4>Lieux</h4><ul><li><a href="../lieux/chult.html">Chult</a></li><li><a href="../lieux/phandalin.html">Phandalin</a></li><li><a href="../lieux/port-nyanzaru.html">Port Nyanzaru</a></li><li><a href="../lieux/qg-des-faiseurs-de-veuves.html">QG des Faiseurs de Veuves</a></li><li><a href="../lieux/waterdeep.html">Waterdeep</a></li></ul></div><div><h4>Factions</h4><ul><li><a href="../factions/faiseurs-de-veuves.html">Faiseurs de Veuves</a></li><li><a href="../factions/princes-marchands.html">Princes marchands</a></li></ul></div><div><h4>Objets</h4><ul><li><a href="../objets/gardien-bouclier.html">Gardien Bouclier</a></li></ul></div><div><h4>Pages</h4><ul><li><a href="../chronologie.html">Chronologie</a></li><li><a href="../questions-ouvertes.html">Questions ouvertes</a></li></ul></div></div></section><nav class="prevnext"><a href="../seances/seance-02.html">← Séance 02 — La route de Phandalin</a><a href="../seances/seance-04.html">Séance 04 — L&#x27;Effleureuse →</a></nav></main>
+<script>window.SITE_PREFIX = "../";</script>
+<script src="../search.js"></script>
+</body>
+</html>

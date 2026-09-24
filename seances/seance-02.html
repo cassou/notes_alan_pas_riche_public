@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Séance 02 — La route de Phandalin · Campagne</title>
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<button class="menu-toggle" onclick="document.body.classList.toggle('nav-open')" aria-label="Menu">☰</button>
+<aside class="sidebar">
+  <div class="search"><input id="q" type="search" placeholder="Rechercher… ( / )" autocomplete="off"><ul id="results"></ul></div>
+  <nav><a class="home" href="../index.html">🎲 Campagne</a><a class="extra" href="../chronologie.html">Chronologie</a><a class="extra" href="../questions-ouvertes.html">Questions ouvertes</a><details open><summary><a href="../seances/index.html">📜 Séances</a><span class="count">6</span></summary><ul><li><a href="../seances/seance-06.html">Séance 06 — Les guides de Port Nyanzaru</a></li><li><a href="../seances/seance-05.html">Séance 05 — Port Nyanzaru</a></li><li><a href="../seances/seance-04.html">Séance 04 — L&#x27;Effleureuse</a></li><li><a href="../seances/seance-03.html">Séance 03 — Les Faiseurs de Veuves</a></li><li><a href="../seances/seance-02.html" class=current>Séance 02 — La route de Phandalin</a></li><li><a href="../seances/seance-01.html">Séance 01 — La Faille de Waterdeep</a></li></ul></details><details><summary><a href="../quetes/index.html">🗺️ Quêtes</a><span class="count">3</span></summary><ul><li><a href="../quetes/le-gardien-bouclier.html">Le Gardien Bouclier</a></li><li><a href="../quetes/le-mal-des-ressuscites.html">Le mal des ressuscités</a></li><li><a href="../quetes/rejoindre-phandalin.html">Rejoindre Phandalin</a></li></ul></details><details><summary><a href="../personnages/index.html">🛡️ Personnages</a><span class="count">4</span></summary><ul><li><a href="../personnages/destos.html">Destos</a></li><li><a href="../personnages/kael.html">Kael</a></li><li><a href="../personnages/morrys.html">Morrÿs</a></li><li><a href="../personnages/obelik.html">Obélik</a></li></ul></details><details><summary><a href="../pnj/index.html">👤 PNJ</a><span class="count">17</span></summary><ul><li><a href="../pnj/alan.html">Alan</a></li><li><a href="../pnj/arlan.html">Arlan</a></li><li><a href="../pnj/corrin-thinspike.html">Corrin Thinspike</a></li><li><a href="../pnj/corvis-quillfore.html">Corvis Quillfore</a></li><li><a href="../pnj/jeanne-von-brocht.html">Jeanne Von Brocht</a></li><li><a href="../pnj/kaya.html">Kaya</a></li><li><a href="../pnj/la-creature-invisible.html">La créature invisible</a></li><li><a href="../pnj/la-paire.html">La Paire</a></li><li><a href="../pnj/le-capitaine-de-la-bite.html">Le capitaine de la BITE</a></li><li><a href="../pnj/le-domestique-de-wakanga.html">Le domestique de Wakanga</a></li><li><a href="../pnj/lyra-sunstrike.html">Lyra Sunstrike</a></li><li><a href="../pnj/neverember.html">Neverember</a></li><li><a href="../pnj/river-mist-et-flask-of-wine.html">River Mist et Flask of Wine</a></li><li><a href="../pnj/syndra.html">Syndra</a></li><li><a href="../pnj/virgile.html">Virgile</a></li><li><a href="../pnj/wakanga-o-tamu.html">Wakanga O&#x27;Tamu</a></li><li><a href="../pnj/yarno-el-raib.html">Yarno El Raïb</a></li></ul></details><details><summary><a href="../lieux/index.html">🏰 Lieux</a><span class="count">11</span></summary><ul><li><a href="../lieux/chult.html">Chult</a></li><li><a href="../lieux/fort-beluarian.html">Fort Beluarian</a></li><li><a href="../lieux/leilon.html">Leilon</a></li><li><a href="../lieux/maison-de-repos-de-kaya.html">Maison de repos de Kaya</a></li><li><a href="../lieux/phandalin.html">Phandalin</a></li><li><a href="../lieux/port-nyanzaru.html">Port Nyanzaru</a></li><li><a href="../lieux/prison-de-waterdeep.html">Prison de Waterdeep</a></li><li><a href="../lieux/qg-des-faiseurs-de-veuves.html">QG des Faiseurs de Veuves</a></li><li><a href="../lieux/temple-de-gond.html">Temple de Gond</a></li><li><a href="../lieux/villa-de-wakanga-o-tamu.html">Villa de Wakanga O&#x27;Tamu</a></li><li><a href="../lieux/waterdeep.html">Waterdeep</a></li></ul></details><details><summary><a href="../factions/index.html">⚜️ Factions</a><span class="count">6</span></summary><ul><li><a href="../factions/brigade-d-intervention-technique-et-expeditive.html">Brigade d&#x27;Intervention Technique et Expéditive</a></li><li><a href="../factions/enclave-d-emeraude.html">Enclave d&#x27;Émeraude</a></li><li><a href="../factions/faiseurs-de-veuves.html">Faiseurs de Veuves</a></li><li><a href="../factions/guilde-des-guides.html">Guilde des guides</a></li><li><a href="../factions/princes-marchands.html">Princes marchands</a></li><li><a href="../factions/zhentarim.html">Zhentarim</a></li></ul></details><details><summary><a href="../objets/index.html">💎 Objets</a><span class="count">4</span></summary><ul><li><a href="../objets/gardien-bouclier.html">Gardien Bouclier</a></li><li><a href="../objets/journal-de-la-naine.html">Journal de la naine</a></li><li><a href="../objets/l-effleureuse.html">L&#x27;Effleureuse</a></li><li><a href="../objets/soulmonger.html">Soulmonger</a></li></ul></details></nav>
+  <p class="generated">Généré le 24/09/2026 à 12:22 (commit 9c76514)</p>
+</aside>
+<main><header class="page-head"><span class="kind">📜 Séances</span><h1>Séance 02 — La route de Phandalin</h1></header><nav class="prevnext"><a href="../seances/seance-01.html">← Séance 01 — La Faille de Waterdeep</a><a href="../seances/seance-03.html">Séance 03 — Les Faiseurs de Veuves →</a></nav><table class="props"><tr><th>numero</th><td>2</td></tr><tr><th>date</th><td>25/08/2026</td></tr><tr><th>date jeu</th><td>mai</td></tr><tr><th>resume</th><td>Les évadés quittent Waterdeep avec le capitaine Virgile, font profil bas dans une taverne en route et sont attendus aux portes de Phandalin par une elfe des Faiseurs de Veuves.</td></tr><tr><th>lieux</th><td><a class="wl cat-lieux" href="../lieux/waterdeep.html">Waterdeep</a>, <a class="wl cat-lieux" href="../lieux/phandalin.html">Phandalin</a>, <a class="wl cat-lieux" href="../lieux/qg-des-faiseurs-de-veuves.html">QG des Faiseurs de Veuves</a></td></tr><tr><th>pnj</th><td><a class="wl cat-pnj" href="../pnj/virgile.html">Virgile</a>, <a class="wl cat-pnj" href="../pnj/alan.html">Alan</a>, <a class="wl cat-pnj" href="../pnj/lyra-sunstrike.html">Lyra Sunstrike</a>, <a class="wl cat-pnj" href="../pnj/corrin-thinspike.html">Corrin Thinspike</a></td></tr></table><article><h2 id="resume-rapide">Résumé rapide</h2>
+<p>La dernière fois, on a quitté Waterdeep pour <a class="wl cat-lieux" href="../lieux/phandalin.html">Phandalin</a> avec <a class="wl cat-pnj" href="../pnj/alan.html">Alan</a> et le capitaine blessé, qui s'appelle <a class="wl cat-pnj" href="../pnj/virgile.html">Virgile</a>. Il avait jeté une chope, vidée avant, dans la faille de la prison. Halte de nuit dans une taverne : en guenilles de prisonniers, on a fait profil bas, mais les clients chuchotaient. Alan nous a raconté qu'il gère une taverne qu'il rêve de racheter, qu'il a été arrêté pour des affiches publicitaires, et qu'on le confond souvent avec le fils de <a class="wl cat-pnj" href="../pnj/neverember.html">Neverember</a>, l'ancien lord de Waterdeep. Virgile veut se faire soigner par les <a class="wl cat-factions" href="../factions/faiseurs-de-veuves.html">Faiseurs de Veuves</a>, une guilde qui œuvre pour le bien malgré son nom. En arrivant, fumée au-dessus de la ville ; devant une villa marquée d'une étoile à huit branches, une elfe de la guilde nous attendait depuis plusieurs jours, sans qu'on ait prévenu personne.</p>
+<h2 id="resume">Résumé</h2>
+<p>Sortis de la <a class="wl cat-lieux" href="../lieux/prison-de-waterdeep.html">Prison de Waterdeep</a>, <a class="wl cat-personnages" href="../personnages/kael.html">Kael</a>, <a class="wl cat-personnages" href="../personnages/morrys.html">Morrÿs</a>, <a class="wl cat-personnages" href="../personnages/obelik.html">Obélik</a> et <a class="wl cat-pnj" href="../pnj/alan.html">Alan</a> prennent la route
+de <a class="wl cat-lieux" href="../lieux/phandalin.html">Phandalin</a>, à deux jours de marche. Le capitaine de la prison, blessé mais soigné par le
+<a class="wl cat-pnj" href="../pnj/corrin-thinspike.html">halfelin mystérieux</a> (reparti explorer la prison), les accompagne ; il se
+présente enfin : <a class="wl cat-pnj" href="../pnj/virgile.html">Virgile</a>. Il n'est affecté à la garde de la prison que depuis l'an dernier.
+Il raconte avoir tenté de sonder la faille de la prison en y jetant une chope — vidée au préalable,
+on ne gâche pas — ce qui scandalise surtout Alan (le trou est très profond : « 10 secondes »).</p>
+<p>Virgile décide de s'arrêter pour la nuit dans une taverne sur la route. Les évadés, toujours en
+guenilles de prisonniers, doivent faire profil bas pendant qu'il commande pour tout le monde en
+précisant au tavernier qu'ils sont avec lui. Morrÿs entend des chuchotements : les clients les ont
+repérés, mais personne ne pose de question.</p>
+<p>À table, Alan se raconte : il est gérant d'une taverne à Waterdeep qu'il voudrait un jour racheter,
+et il a été emprisonné pour « propagande » (des affiches publicitaires pour sa taverne). À Waterdeep,
+on le confond souvent avec le fils de <a class="wl cat-pnj" href="../pnj/neverember.html">Neverember</a>, le lord de la cité avant <a class="wl cat-pnj" href="../pnj/jeanne-von-brocht.html">Jeanne Von Brocht</a>.
+Virgile, lui, compte se faire soigner à Phandalin par les <a class="wl cat-factions" href="../factions/faiseurs-de-veuves.html">Faiseurs de Veuves</a>, une guilde qui y a
+son QG et œuvre pour le bien du royaume. Elle a cette réputation depuis une vingtaine d'années ; son
+nom vient de sa toute première mission, où elle n'a pas réussi à sauver tous les otages.</p>
+<p>On est au mois de mai. Le groupe reprend la route ; à l'approche de Phandalin, une colonne de fumée
+s'élève au-dessus de la ville (Obélik : « Ils ont déjà allumé le barbecue »). Devant une vaste villa
+à l'extérieur de la ville, marquée d'une étoile à huit branches — le symbole des Faiseurs de Veuves —
+une elfe de la guilde, <a class="wl cat-pnj" href="../pnj/lyra-sunstrike.html">Lyra Sunstrike</a>, les attend depuis quatre ou cinq jours, alors que personne
+n'a annoncé leur venue.</p>
+<h2 id="chronologie">Chronologie</h2>
+<ol>
+<li>Départ de <a class="wl cat-lieux" href="../lieux/waterdeep.html">Waterdeep</a> vers <a class="wl cat-lieux" href="../lieux/phandalin.html">Phandalin</a> (deux jours de marche) avec <a class="wl cat-pnj" href="../pnj/virgile.html">Virgile</a>.</li>
+<li>Virgile raconte la chope jetée dans la faille de la <a class="wl cat-lieux" href="../lieux/prison-de-waterdeep.html">Prison de Waterdeep</a>.</li>
+<li>Halte de nuit dans une taverne sur la route : profil bas, chuchotements des clients.</li>
+<li>Confidences d'<a class="wl cat-pnj" href="../pnj/alan.html">Alan</a> (taverne, affiches, ressemblance avec le fils de <a class="wl cat-pnj" href="../pnj/neverember.html">Neverember</a>).</li>
+<li>Virgile présente les <a class="wl cat-factions" href="../factions/faiseurs-de-veuves.html">Faiseurs de Veuves</a>.</li>
+<li>Reprise de la route ; fumée au-dessus de Phandalin.</li>
+<li>Une elfe des Faiseurs de Veuves (<a class="wl cat-pnj" href="../pnj/lyra-sunstrike.html">Lyra Sunstrike</a>) les attend devant la villa à l'étoile à huit branches.</li>
+</ol>
+<h2 id="pnj-rencontres">PNJ rencontrés</h2>
+<ul>
+<li><a class="wl cat-pnj" href="../pnj/virgile.html">Virgile</a> : capitaine de la prison, blessé, voyage avec le groupe pour se faire soigner.</li>
+<li><a class="wl cat-pnj" href="../pnj/alan.html">Alan</a> : tavernier évadé avec le groupe.</li>
+<li><a class="wl cat-pnj" href="../pnj/lyra-sunstrike.html">Lyra Sunstrike</a> : elfe des Faiseurs de Veuves qui attend le groupe (nom appris plus tard).</li>
+<li><a class="wl cat-pnj" href="../pnj/corrin-thinspike.html">Corrin Thinspike</a> : évoqué — le halfelin qui a soigné Virgile et est reparti vers la prison.</li>
+<li><a class="wl cat-pnj" href="../pnj/neverember.html">Neverember</a>, <a class="wl cat-pnj" href="../pnj/jeanne-von-brocht.html">Jeanne Von Brocht</a> : évoqués (ancien et actuel lord de Waterdeep).</li>
+</ul>
+<h2 id="quetes">Quêtes</h2>
+<ul>
+<li><a class="wl cat-quetes" href="../quetes/rejoindre-phandalin.html">Rejoindre Phandalin</a> : avancée (arrivée aux abords de la ville).</li>
+</ul>
+<h2 id="butin-et-recompenses">Butin et récompenses</h2>
+<ul>
+<li>Rien.</li>
+</ul>
+<h2 id="citations-et-moments-marquants">Citations et moments marquants</h2>
+<blockquote>
+<p>« Ils ont déjà allumé le barbecue. » — Obélik, devant la fumée de Phandalin</p>
+</blockquote>
+<ul>
+<li>La chope jetée dans la faille… mais vidée avant.</li>
+</ul>
+<h2 id="questions-ouvertes">Questions ouvertes</h2>
+<ul>
+<li class="task"><input type="checkbox" disabled> Comment l'elfe savait-elle que le groupe arrivait ?</li>
+</ul>
+<h2 id="sources">Sources</h2>
+<ul>
+<li>Notes de Mathieu (inbox, <code>2026-09-22.txt</code>, rédigées après coup)</li>
+<li>Récit du collègue : <code>sources/alan-pas-riche/chapter/0002_la_route_de_phandalin.tex</code></li>
+</ul></article><section class="backlinks"><h2>🔗 Mentionné dans</h2><div class="bl-grid"><div><h4>Quêtes</h4><ul><li><a href="../quetes/rejoindre-phandalin.html">Rejoindre Phandalin</a></li></ul></div><div><h4>Personnages</h4><ul><li><a href="../personnages/kael.html">Kael</a></li><li><a href="../personnages/morrys.html">Morrÿs</a></li><li><a href="../personnages/obelik.html">Obélik</a></li></ul></div><div><h4>PNJ</h4><ul><li><a href="../pnj/alan.html">Alan</a></li><li><a href="../pnj/corrin-thinspike.html">Corrin Thinspike</a></li><li><a href="../pnj/jeanne-von-brocht.html">Jeanne Von Brocht</a></li><li><a href="../pnj/lyra-sunstrike.html">Lyra Sunstrike</a></li><li><a href="../pnj/neverember.html">Neverember</a></li><li><a href="../pnj/virgile.html">Virgile</a></li></ul></div><div><h4>Lieux</h4><ul><li><a href="../lieux/phandalin.html">Phandalin</a></li><li><a href="../lieux/prison-de-waterdeep.html">Prison de Waterdeep</a></li><li><a href="../lieux/qg-des-faiseurs-de-veuves.html">QG des Faiseurs de Veuves</a></li><li><a href="../lieux/waterdeep.html">Waterdeep</a></li></ul></div><div><h4>Factions</h4><ul><li><a href="../factions/faiseurs-de-veuves.html">Faiseurs de Veuves</a></li></ul></div><div><h4>Pages</h4><ul><li><a href="../chronologie.html">Chronologie</a></li><li><a href="../questions-ouvertes.html">Questions ouvertes</a></li></ul></div></div></section><nav class="prevnext"><a href="../seances/seance-01.html">← Séance 01 — La Faille de Waterdeep</a><a href="../seances/seance-03.html">Séance 03 — Les Faiseurs de Veuves →</a></nav></main>
+<script>window.SITE_PREFIX = "../";</script>
+<script src="../search.js"></script>
+</body>
+</html>

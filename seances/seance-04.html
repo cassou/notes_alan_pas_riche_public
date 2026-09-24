@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Séance 04 — L&#x27;Effleureuse · Campagne</title>
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<button class="menu-toggle" onclick="document.body.classList.toggle('nav-open')" aria-label="Menu">☰</button>
+<aside class="sidebar">
+  <div class="search"><input id="q" type="search" placeholder="Rechercher… ( / )" autocomplete="off"><ul id="results"></ul></div>
+  <nav><a class="home" href="../index.html">🎲 Campagne</a><a class="extra" href="../chronologie.html">Chronologie</a><a class="extra" href="../questions-ouvertes.html">Questions ouvertes</a><details open><summary><a href="../seances/index.html">📜 Séances</a><span class="count">6</span></summary><ul><li><a href="../seances/seance-06.html">Séance 06 — Les guides de Port Nyanzaru</a></li><li><a href="../seances/seance-05.html">Séance 05 — Port Nyanzaru</a></li><li><a href="../seances/seance-04.html" class=current>Séance 04 — L&#x27;Effleureuse</a></li><li><a href="../seances/seance-03.html">Séance 03 — Les Faiseurs de Veuves</a></li><li><a href="../seances/seance-02.html">Séance 02 — La route de Phandalin</a></li><li><a href="../seances/seance-01.html">Séance 01 — La Faille de Waterdeep</a></li></ul></details><details><summary><a href="../quetes/index.html">🗺️ Quêtes</a><span class="count">3</span></summary><ul><li><a href="../quetes/le-gardien-bouclier.html">Le Gardien Bouclier</a></li><li><a href="../quetes/le-mal-des-ressuscites.html">Le mal des ressuscités</a></li><li><a href="../quetes/rejoindre-phandalin.html">Rejoindre Phandalin</a></li></ul></details><details><summary><a href="../personnages/index.html">🛡️ Personnages</a><span class="count">4</span></summary><ul><li><a href="../personnages/destos.html">Destos</a></li><li><a href="../personnages/kael.html">Kael</a></li><li><a href="../personnages/morrys.html">Morrÿs</a></li><li><a href="../personnages/obelik.html">Obélik</a></li></ul></details><details><summary><a href="../pnj/index.html">👤 PNJ</a><span class="count">17</span></summary><ul><li><a href="../pnj/alan.html">Alan</a></li><li><a href="../pnj/arlan.html">Arlan</a></li><li><a href="../pnj/corrin-thinspike.html">Corrin Thinspike</a></li><li><a href="../pnj/corvis-quillfore.html">Corvis Quillfore</a></li><li><a href="../pnj/jeanne-von-brocht.html">Jeanne Von Brocht</a></li><li><a href="../pnj/kaya.html">Kaya</a></li><li><a href="../pnj/la-creature-invisible.html">La créature invisible</a></li><li><a href="../pnj/la-paire.html">La Paire</a></li><li><a href="../pnj/le-capitaine-de-la-bite.html">Le capitaine de la BITE</a></li><li><a href="../pnj/le-domestique-de-wakanga.html">Le domestique de Wakanga</a></li><li><a href="../pnj/lyra-sunstrike.html">Lyra Sunstrike</a></li><li><a href="../pnj/neverember.html">Neverember</a></li><li><a href="../pnj/river-mist-et-flask-of-wine.html">River Mist et Flask of Wine</a></li><li><a href="../pnj/syndra.html">Syndra</a></li><li><a href="../pnj/virgile.html">Virgile</a></li><li><a href="../pnj/wakanga-o-tamu.html">Wakanga O&#x27;Tamu</a></li><li><a href="../pnj/yarno-el-raib.html">Yarno El Raïb</a></li></ul></details><details><summary><a href="../lieux/index.html">🏰 Lieux</a><span class="count">11</span></summary><ul><li><a href="../lieux/chult.html">Chult</a></li><li><a href="../lieux/fort-beluarian.html">Fort Beluarian</a></li><li><a href="../lieux/leilon.html">Leilon</a></li><li><a href="../lieux/maison-de-repos-de-kaya.html">Maison de repos de Kaya</a></li><li><a href="../lieux/phandalin.html">Phandalin</a></li><li><a href="../lieux/port-nyanzaru.html">Port Nyanzaru</a></li><li><a href="../lieux/prison-de-waterdeep.html">Prison de Waterdeep</a></li><li><a href="../lieux/qg-des-faiseurs-de-veuves.html">QG des Faiseurs de Veuves</a></li><li><a href="../lieux/temple-de-gond.html">Temple de Gond</a></li><li><a href="../lieux/villa-de-wakanga-o-tamu.html">Villa de Wakanga O&#x27;Tamu</a></li><li><a href="../lieux/waterdeep.html">Waterdeep</a></li></ul></details><details><summary><a href="../factions/index.html">⚜️ Factions</a><span class="count">6</span></summary><ul><li><a href="../factions/brigade-d-intervention-technique-et-expeditive.html">Brigade d&#x27;Intervention Technique et Expéditive</a></li><li><a href="../factions/enclave-d-emeraude.html">Enclave d&#x27;Émeraude</a></li><li><a href="../factions/faiseurs-de-veuves.html">Faiseurs de Veuves</a></li><li><a href="../factions/guilde-des-guides.html">Guilde des guides</a></li><li><a href="../factions/princes-marchands.html">Princes marchands</a></li><li><a href="../factions/zhentarim.html">Zhentarim</a></li></ul></details><details><summary><a href="../objets/index.html">💎 Objets</a><span class="count">4</span></summary><ul><li><a href="../objets/gardien-bouclier.html">Gardien Bouclier</a></li><li><a href="../objets/journal-de-la-naine.html">Journal de la naine</a></li><li><a href="../objets/l-effleureuse.html">L&#x27;Effleureuse</a></li><li><a href="../objets/soulmonger.html">Soulmonger</a></li></ul></details></nav>
+  <p class="generated">Généré le 24/09/2026 à 12:22 (commit 9c76514)</p>
+</aside>
+<main><header class="page-head"><span class="kind">📜 Séances</span><h1>Séance 04 — L&#x27;Effleureuse</h1></header><nav class="prevnext"><a href="../seances/seance-03.html">← Séance 03 — Les Faiseurs de Veuves</a><a href="../seances/seance-05.html">Séance 05 — Port Nyanzaru →</a></nav><table class="props"><tr><th>numero</th><td>4</td></tr><tr><th>date</th><td>08/09/2026</td></tr><tr><th>resume</th><td>Le groupe embarque à Leilon sur l'Effleureuse de Corvis Quillfore, échappe à un contrôle de la garde de Waterdeep et la sème grâce au pouvoir magique du navire.</td></tr><tr><th>lieux</th><td><a class="wl cat-lieux" href="../lieux/phandalin.html">Phandalin</a>, <a class="wl cat-lieux" href="../lieux/leilon.html">Leilon</a>, <a class="wl cat-objets" href="../objets/l-effleureuse.html">L&#x27;Effleureuse</a></td></tr><tr><th>pnj</th><td><a class="wl cat-pnj" href="../pnj/lyra-sunstrike.html">Lyra Sunstrike</a>, <a class="wl cat-pnj" href="../pnj/corvis-quillfore.html">Corvis Quillfore</a>, <a class="wl cat-pnj" href="../pnj/le-capitaine-de-la-bite.html">Le capitaine de la BITE</a>, <a class="wl cat-pnj" href="../pnj/alan.html">Alan</a>, <a class="wl cat-pnj" href="../pnj/virgile.html">Virgile</a></td></tr></table><article><h2 id="resume-rapide">Résumé rapide</h2>
+<p>La dernière fois, Lyra nous a menés à <a class="wl cat-lieux" href="../lieux/leilon.html">Leilon</a>, où nous attendait <a class="wl cat-objets" href="../objets/l-effleureuse.html">L&#x27;Effleureuse</a>, le trois-mâts magique de <a class="wl cat-pnj" href="../pnj/corvis-quillfore.html">Corvis Quillfore</a>. Sans équipage, on a dû faire les manœuvres nous-mêmes. Dès le départ, un navire de la garde de Waterdeep, la <a class="wl cat-factions" href="../factions/brigade-d-intervention-technique-et-expeditive.html">BITE</a>, nous a contrôlés. Obélik s'est appelé « Hervé », Destos a laissé échapper le mot « Chult », et Morrÿs, reconnu sur l'avis de recherche, a été ligoté. Obélik a tranché la corde entre les navires, Kael a jeté le capitaine adverse à l'eau, et on a fui sous les carreaux. Corvis a activé le pouvoir du navire avec un petit objet bleu : on a bondi par-dessus des hauts-fonds, et la garde s'y est échouée. Corvis, tombé à l'eau, a été réveillé d'une gifle par Obélik. Cap sur Chult.</p>
+<h2 id="resume">Résumé</h2>
+<p>Avant l'aube, <a class="wl cat-pnj" href="../pnj/lyra-sunstrike.html">Lyra</a> vient chercher <a class="wl cat-personnages" href="../personnages/kael.html">Kael</a>, <a class="wl cat-personnages" href="../personnages/morrys.html">Morrÿs</a>, <a class="wl cat-personnages" href="../personnages/obelik.html">Obélik</a> et <a class="wl cat-personnages" href="../personnages/destos.html">Destos</a> ;
+<a class="wl cat-pnj" href="../pnj/alan.html">Alan</a> et <a class="wl cat-pnj" href="../pnj/virgile.html">Virgile</a> les regardent partir. Le récit parle d'une matinée fraîche « malgré le mois
+de juillet ». Lyra porte désormais une cape sombre et un masque pâle lié à sa
+discipline monacale. Elle aurait aimé venir (Chult est « the place to be »), mais la guilde veut rester
+discrète. Sur les deux heures de route vers <a class="wl cat-lieux" href="../lieux/leilon.html">Leilon</a>, chacun raconte d'où lui vient son aptitude
+au combat : Kael a appris auprès des membres de la caravane itinérante où il a vécu ; Destos se dit
+« vaisseau de la lumière », parti de son village pour la répandre ; Obélik était fermier ; Morrÿs a
+appris à lancer des couteaux… la veille.</p>
+<p><a href="../assets/seances/04/arc-000-epilogue.png" class="img"><img src="../assets/seances/04/arc-000-epilogue.png" alt="arc-000-epilogue" width="500" loading="lazy"></a></p>
+<p>À Leilon attend <a class="wl cat-objets" href="../objets/l-effleureuse.html">L&#x27;Effleureuse</a>, trois-mâts fin comme un oiseau, commandée par
+<a class="wl cat-pnj" href="../pnj/corvis-quillfore.html">Corvis Quillfore</a>, qui compte faire la traversée en vingt jours plutôt que quarante. Morrÿs sent
+qu'une magie habite le navire. Prévenu la veille, Corvis n'a pas d'équipage : Obélik aux cordages,
+Morrÿs à la navigation avec Corvis, Kael à la vigie, Destos « tout le reste » (lignes de vie, bouts,
+canon). Corvis déposera le groupe à Chult avant de repartir vers les îles Solaires.</p>
+<p>Dès le départ, un navire de la garde de <a class="wl cat-lieux" href="../lieux/waterdeep.html">Waterdeep</a> les intercepte : la
+<a class="wl cat-factions" href="../factions/brigade-d-intervention-technique-et-expeditive.html">Brigade d&#x27;Intervention Technique et Expéditive</a> (la « BITE ») veut inspecter la cargaison. Corvis
+gagne du temps, les fugitifs se changent. <a class="wl cat-pnj" href="../pnj/le-capitaine-de-la-bite.html">Le capitaine de la BITE</a> monte avec quatre soldats ;
+Corvis prétend livrer du minerai aux îles Solaires. Obélik se présente comme « Hervé » (aidé d'un sort
+de Destos) ; Destos dit vouloir gagner Chult et laisse échapper le nom ; Kael explique sa peau bleue
+par une maladie et fait mine de vomir. Le capitaine a un avis de recherche avec quatre portraits :
+Kael, Obélik, Morrÿs et Alan — Morrÿs se ressemble beaucoup. Obélik fait parler le capitaine
+(ancien marin de l'import-export, licence perdue) et manque de lui proposer de rejoindre l'équipage.
+Destos provoque un phénomène par thaumaturgie sur le navire de la garde : le capitaine y retourne
+(il appelle Rico et Muso), laissant un soldat ligoter Morrÿs, qui a le temps de répandre ses billes.</p>
+<p><a href="../assets/seances/04/blocus-waterdeep.png" class="img"><img src="../assets/seances/04/blocus-waterdeep.png" alt="blocus-waterdeep" width="500" loading="lazy"></a></p>
+<p>Obélik tranche la corde qui relie les navires. Il expédie le dernier soldat sur son bâtiment, Kael
+jette le capitaine adverse par-dessus bord, un soldat rate son saut et tombe aussi à l'eau. Morrÿs,
+ligoté, se plante son propre poignard dans le bras. Poursuite : Obélik prend un carreau d'arbalète
+dans la jambe, un tonneau est percé. Destos simule sous la coque ennemie le grondement d'une créature
+(ça marche une fois). Kael signale des hauts-fonds ; Corvis garde le cap, sort un petit objet bleu
+lumineux, le vent forcit et l'Effleureuse bondit par-dessus. Destos tombe dans la cale, Corvis passe
+par-dessus bord, retenu par sa ligne de vie ; Obélik le remonte. Le navire de la garde s'échoue sur
+le banc de sable.</p>
+<p><a href="../assets/seances/04/fuite-effleureuse.png" class="img"><img src="../assets/seances/04/fuite-effleureuse.png" alt="fuite-effleureuse" width="500" loading="lazy"></a></p>
+<p>Corvis, inconscient, résiste aux soins de Kael et Morrÿs ; une gifle d'Obélik le réveille. Le pouvoir
+du navire ne peut pas servir à volonté. Destos cherche un traqueur par détection de la magie : tout le
+navire rayonne, rien de distinct. Kael trouve une marmite du ragoût de chevreuil d'Alan : c'est le
+frère de Corvis qui l'a cuisiné. Morrÿs demande de la mousse au chocolat ; Corvis ne connaît pas.</p>
+<h2 id="chronologie">Chronologie</h2>
+<ol>
+<li>Départ de <a class="wl cat-lieux" href="../lieux/phandalin.html">Phandalin</a> avant l'aube avec Lyra, sous le regard d'Alan et Virgile.</li>
+<li>Route de deux heures vers <a class="wl cat-lieux" href="../lieux/leilon.html">Leilon</a> : chacun raconte son passé.</li>
+<li>Embarquement sur <a class="wl cat-objets" href="../objets/l-effleureuse.html">L&#x27;Effleureuse</a>, répartition des postes.</li>
+<li>Contrôle par la <a class="wl cat-factions" href="../factions/brigade-d-intervention-technique-et-expeditive.html">Brigade d&#x27;Intervention Technique et Expéditive</a> ; Morrÿs reconnu et ligoté.</li>
+<li>Corde tranchée, gardes à l'eau, fuite sous les carreaux.</li>
+<li>Saut par-dessus les hauts-fonds ; la garde s'échoue.</li>
+<li>Corvis ranimé, pas de traqueur trouvé ; ragoût de chevreuil.</li>
+</ol>
+<h2 id="pnj-rencontres">PNJ rencontrés</h2>
+<ul>
+<li><a class="wl cat-pnj" href="../pnj/lyra-sunstrike.html">Lyra Sunstrike</a> : accompagne le groupe jusqu'à Leilon.</li>
+<li><a class="wl cat-pnj" href="../pnj/corvis-quillfore.html">Corvis Quillfore</a> : capitaine de l'Effleureuse.</li>
+<li><a class="wl cat-pnj" href="../pnj/le-capitaine-de-la-bite.html">Le capitaine de la BITE</a> : mène le contrôle, finit à l'eau.</li>
+<li><a class="wl cat-pnj" href="../pnj/alan.html">Alan</a>, <a class="wl cat-pnj" href="../pnj/virgile.html">Virgile</a> : assistent au départ.</li>
+<li><a class="wl cat-pnj" href="../pnj/arlan.html">Arlan</a> : évoqué (le frère de Corvis, qui a cuisiné le ragoût ; nom appris en <a class="wl cat-seances" href="../seances/seance-05.html">Séance 05</a>).</li>
+</ul>
+<h2 id="quetes">Quêtes</h2>
+<ul>
+<li><a class="wl cat-quetes" href="../quetes/le-gardien-bouclier.html">Le Gardien Bouclier</a> : avancée (en route vers Chult).</li>
+</ul>
+<h2 id="butin-et-recompenses">Butin et récompenses</h2>
+<ul>
+<li>Rien.</li>
+</ul>
+<h2 id="citations-et-moments-marquants">Citations et moments marquants</h2>
+<blockquote>
+<p>« Quand tout part en couille, appelez la BITE. » — le narrateur</p>
+</blockquote>
+<ul>
+<li>Obélik alias « Hervé ».</li>
+<li>Morrÿs se plante son propre poignard dans le bras en voulant couper ses liens.</li>
+<li>La gifle médicinale d'Obélik à Corvis.</li>
+</ul>
+<h2 id="questions-ouvertes">Questions ouvertes</h2>
+<ul>
+<li class="task"><input type="checkbox" disabled> La garde sait-elle que le groupe va à Chult (Destos l'a dit) ?</li>
+<li class="task"><input type="checkbox" disabled> Qu'est-ce que le petit objet bleu de Corvis ?</li>
+</ul>
+<h2 id="sources">Sources</h2>
+<ul>
+<li>Récit du collègue : <code>sources/alan-pas-riche/chapter/0004_leffleureuse.tex</code></li>
+</ul></article><section class="backlinks"><h2>🔗 Mentionné dans</h2><div class="bl-grid"><div><h4>Quêtes</h4><ul><li><a href="../quetes/le-gardien-bouclier.html">Le Gardien Bouclier</a></li></ul></div><div><h4>Personnages</h4><ul><li><a href="../personnages/destos.html">Destos</a></li><li><a href="../personnages/kael.html">Kael</a></li><li><a href="../personnages/morrys.html">Morrÿs</a></li><li><a href="../personnages/obelik.html">Obélik</a></li></ul></div><div><h4>PNJ</h4><ul><li><a href="../pnj/alan.html">Alan</a></li><li><a href="../pnj/arlan.html">Arlan</a></li><li><a href="../pnj/corvis-quillfore.html">Corvis Quillfore</a></li><li><a href="../pnj/le-capitaine-de-la-bite.html">Le capitaine de la BITE</a></li><li><a href="../pnj/lyra-sunstrike.html">Lyra Sunstrike</a></li><li><a href="../pnj/virgile.html">Virgile</a></li></ul></div><div><h4>Lieux</h4><ul><li><a href="../lieux/leilon.html">Leilon</a></li><li><a href="../lieux/phandalin.html">Phandalin</a></li></ul></div><div><h4>Factions</h4><ul><li><a href="../factions/brigade-d-intervention-technique-et-expeditive.html">Brigade d&#x27;Intervention Technique et Expéditive</a></li><li><a href="../factions/faiseurs-de-veuves.html">Faiseurs de Veuves</a></li></ul></div><div><h4>Objets</h4><ul><li><a href="../objets/l-effleureuse.html">L&#x27;Effleureuse</a></li></ul></div><div><h4>Pages</h4><ul><li><a href="../chronologie.html">Chronologie</a></li><li><a href="../questions-ouvertes.html">Questions ouvertes</a></li></ul></div></div></section><nav class="prevnext"><a href="../seances/seance-03.html">← Séance 03 — Les Faiseurs de Veuves</a><a href="../seances/seance-05.html">Séance 05 — Port Nyanzaru →</a></nav></main>
+<script>window.SITE_PREFIX = "../";</script>
+<script src="../search.js"></script>
+</body>
+</html>
