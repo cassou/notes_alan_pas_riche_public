@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Séance 08 — Des toiles sur la rivière · Campagne</title>
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<button class="menu-toggle" onclick="document.body.classList.toggle('nav-open')" aria-label="Menu">☰</button>
+<aside class="sidebar">
+  <div class="search"><input id="q" type="search" placeholder="Rechercher… ( / )" autocomplete="off"><ul id="results"></ul></div>
+  <nav><a class="home" href="../index.html">🎲 Campagne</a><a class="extra" href="../chronologie.html">Chronologie</a><a class="extra" href="../questions-ouvertes.html">Questions ouvertes</a><a class="extra" href="../graphe.html">🕸️ Graphe des relations</a><details open><summary><a href="../seances/index.html">📜 Séances</a><span class="count">9</span></summary><ul><li><a href="../seances/seance-09.html">Séance 09 — Première nuit dans la jungle</a></li><li><a href="../seances/seance-08.html" class=current>Séance 08 — Des toiles sur la rivière</a></li><li><a href="../seances/seance-07.html">Séance 07 — Un guide et un canoë</a></li><li><a href="../seances/seance-06.html">Séance 06 — Les guides de Port Nyanzaru</a></li><li><a href="../seances/seance-05.html">Séance 05 — Port Nyanzaru</a></li><li><a href="../seances/seance-04.html">Séance 04 — L&#x27;Effleureuse</a></li><li><a href="../seances/seance-03.html">Séance 03 — Les Faiseurs de Veuves</a></li><li><a href="../seances/seance-02.html">Séance 02 — La route de Phandalin</a></li><li><a href="../seances/seance-01.html">Séance 01 — La Faille de Waterdeep</a></li></ul></details><details><summary><a href="../quetes/index.html">🗺️ Quêtes</a><span class="count">4</span></summary><ul><li><a href="../quetes/le-gardien-bouclier.html">Le Gardien Bouclier</a></li><li><a href="../quetes/le-mal-des-ressuscites.html">Le mal des ressuscités</a></li><li><a href="../quetes/le-masque-d-azaka.html">Le masque d&#x27;Azaka</a></li><li><a href="../quetes/rejoindre-phandalin.html">Rejoindre Phandalin</a></li></ul></details><details><summary><a href="../personnages/index.html">🛡️ Personnages</a><span class="count">4</span></summary><ul><li><a href="../personnages/destos.html">Destos</a></li><li><a href="../personnages/kael.html">Kael</a></li><li><a href="../personnages/morrys.html">Morrÿs</a></li><li><a href="../personnages/obelik.html">Obélik</a></li></ul></details><details><summary><a href="../pnj/index.html">👤 PNJ</a><span class="count">20</span></summary><ul><li><a href="../pnj/alan.html">Alan</a></li><li><a href="../pnj/arlan.html">Arlan</a></li><li><a href="../pnj/azaka-stormfang.html">Azaka Stormfang</a></li><li><a href="../pnj/capitaine-du-port.html">Capitaine du port</a></li><li><a href="../pnj/corrin-thinspike.html">Corrin Thinspike</a></li><li><a href="../pnj/corvis-quillfore.html">Corvis Quillfore</a></li><li><a href="../pnj/jeanne-von-brocht.html">Jeanne Von Brocht</a></li><li><a href="../pnj/kaya.html">Kaya</a></li><li><a href="../pnj/la-creature-invisible.html">La créature invisible</a></li><li><a href="../pnj/la-paire.html">La Paire</a></li><li><a href="../pnj/le-capitaine-de-la-bite.html">Le capitaine de la BITE</a></li><li><a href="../pnj/le-domestique-de-wakanga.html">Le domestique de Wakanga</a></li><li><a href="../pnj/lyra-sunstrike.html">Lyra Sunstrike</a></li><li><a href="../pnj/neverember.html">Neverember</a></li><li><a href="../pnj/river-mist-et-flask-of-wine.html">River Mist et Flask of Wine</a></li><li><a href="../pnj/salida.html">Salida</a></li><li><a href="../pnj/syndra.html">Syndra</a></li><li><a href="../pnj/virgile.html">Virgile</a></li><li><a href="../pnj/wakanga-o-tamu.html">Wakanga O&#x27;Tamu</a></li><li><a href="../pnj/yarno-el-raib.html">Yarno El Raïb</a></li></ul></details><details><summary><a href="../lieux/index.html">🏰 Lieux</a><span class="count">15</span></summary><ul><li><a href="../lieux/capitainerie.html">Capitainerie</a></li><li><a href="../lieux/chult.html">Chult</a></li><li><a href="../lieux/fort-beluarian.html">Fort Beluarian</a></li><li><a href="../lieux/grand-souk.html">Grand Souk</a></li><li><a href="../lieux/leilon.html">Leilon</a></li><li><a href="../lieux/lezard-tonnant.html">Lézard tonnant</a></li><li><a href="../lieux/maison-de-repos-de-kaya.html">Maison de repos de Kaya</a></li><li><a href="../lieux/phandalin.html">Phandalin</a></li><li><a href="../lieux/port-nyanzaru.html">Port Nyanzaru</a></li><li><a href="../lieux/prison-de-waterdeep.html">Prison de Waterdeep</a></li><li><a href="../lieux/qg-des-faiseurs-de-veuves.html">QG des Faiseurs de Veuves</a></li><li><a href="../lieux/temple-de-gond.html">Temple de Gond</a></li><li><a href="../lieux/villa-de-wakanga-o-tamu.html">Villa de Wakanga O&#x27;Tamu</a></li><li><a href="../lieux/vorn.html">Vorn</a></li><li><a href="../lieux/waterdeep.html">Waterdeep</a></li></ul></details><details><summary><a href="../factions/index.html">⚜️ Factions</a><span class="count">6</span></summary><ul><li><a href="../factions/brigade-d-intervention-technique-et-expeditive.html">Brigade d&#x27;Intervention Technique et Expéditive</a></li><li><a href="../factions/enclave-d-emeraude.html">Enclave d&#x27;Émeraude</a></li><li><a href="../factions/faiseurs-de-veuves.html">Faiseurs de Veuves</a></li><li><a href="../factions/guilde-des-guides.html">Guilde des guides</a></li><li><a href="../factions/princes-marchands.html">Princes marchands</a></li><li><a href="../factions/zhentarim.html">Zhentarim</a></li></ul></details><details><summary><a href="../objets/index.html">💎 Objets</a><span class="count">6</span></summary><ul><li><a href="../objets/canoe.html">Canoë</a></li><li><a href="../objets/gardien-bouclier.html">Gardien Bouclier</a></li><li><a href="../objets/journal-de-la-naine.html">Journal de la naine</a></li><li><a href="../objets/l-effleureuse.html">L&#x27;Effleureuse</a></li><li><a href="../objets/lettre-de-la-paire.html">Lettre de la Paire</a></li><li><a href="../objets/soulmonger.html">Soulmonger</a></li></ul></details></nav>
+  <p class="generated">Généré le 28/10/2026 à 09:42 (commit 68037cf)</p>
+</aside>
+<main><header class="page-head"><span class="kind">📜 Séances</span><h1>Séance 08 — Des toiles sur la rivière</h1></header><nav class="prevnext"><a href="../seances/seance-07.html">← Séance 07 — Un guide et un canoë</a><a href="../seances/seance-09.html">Séance 09 — Première nuit dans la jungle →</a></nav><table class="props"><tr><th>numero</th><td>8</td></tr><tr><th>date</th><td>06/10/2026</td></tr><tr><th>resume</th><td>Dernière soirée à Port Nyanzaru (conseils de la capitainerie, offre de Salida déclinée), puis départ en canoë avec Azaka et premier combat contre deux araignées géantes.</td></tr><tr><th>lieux</th><td><a class="wl cat-lieux" href="../lieux/port-nyanzaru.html">Port Nyanzaru</a>, <a class="wl cat-lieux" href="../lieux/capitainerie.html">Capitainerie</a>, <a class="wl cat-lieux" href="../lieux/maison-de-repos-de-kaya.html">Maison de repos de Kaya</a>, <a class="wl cat-lieux" href="../lieux/chult.html">Chult</a></td></tr><tr><th>pnj</th><td><a class="wl cat-pnj" href="../pnj/capitaine-du-port.html">Capitaine du port</a>, <a class="wl cat-pnj" href="../pnj/kaya.html">Kaya</a>, <a class="wl cat-pnj" href="../pnj/salida.html">Salida</a>, <a class="wl cat-pnj" href="../pnj/azaka-stormfang.html">Azaka Stormfang</a></td></tr></table><article><h2 id="resume-rapide">Résumé rapide</h2>
+<p>La dernière fois, on est repassés à la <a class="wl cat-lieux" href="../lieux/capitainerie.html">capitainerie</a>. Il pleut plusieurs fois par jour, et en cas d'orage il faut sortir de la rivière. La fièvre bleue est fréquente, donc on se protège des insectes et des plantes. Les morts-vivants ne nagent pas. On attend aussi un dirigeable, le <em>Star Goddess</em>, qui n'est jamais arrivé. Au dîner chez <a class="wl cat-pnj" href="../pnj/kaya.html">Kaya</a>, <a class="wl cat-pnj" href="../pnj/salida.html">Salida</a>, une guide, nous a offert ses services, mais on n'avait pas de quoi la payer. À l'aube, on est partis vers le sud en canoë avec <a class="wl cat-pnj" href="../pnj/azaka-stormfang.html">Azaka Stormfang</a> : au moins six jours de rivière. Dès le premier matin, des toiles barraient le canal. On a tué deux araignées géantes, et la morsure d'Azaka s'est refermée sans saigner. On se trouve maintenant dans la jungle, au bord de la rivière.</p>
+<h2 id="resume">Résumé</h2>
+<h3 id="derniere-visite-a-la-capitainerie">Dernière visite à la capitainerie</h3>
+<p>En fin d'après-midi, le canoë rangé au fond du couloir, le groupe retourne à la <a class="wl cat-lieux" href="../lieux/capitainerie.html">Capitainerie</a> avant la fermeture. Le <a class="wl cat-pnj" href="../pnj/capitaine-du-port.html">Capitaine du port</a> reconnaît le groupe et approuve le choix d'<a class="wl cat-pnj" href="../pnj/azaka-stormfang.html">Azaka Stormfang</a> : « si votre objectif, c'est de survivre », elle connaît très bien la jungle.</p>
+<ul>
+<li><strong>Météo</strong> : prévisible en mer, très hasardeuse dans les terres (vents, ouragans). Il pleut plusieurs fois par jour, en averses courtes, parfois fortes ; jamais de sécheresse.</li>
+<li><strong>Orages</strong> : rester hors des fleuves et des ruisseaux, car le niveau monte d'un coup et provoque des crues aux courants violents.</li>
+<li><strong>Maladies</strong> : la fièvre (de la brume) bleue est fréquente. « La meilleure des protections, c'est de ne pas contracter la maladie. » Se protéger des insectes et éviter de se faire blesser par les plantes.</li>
+<li><strong>Morts-vivants</strong> : il y en a un peu partout, et de plus en plus en s'enfonçant dans les terres ; un groupe comme le nôtre devrait s'en sortir. Ils sont lents et ne savent pas nager.</li>
+<li><strong>Rumeur</strong> : une compagnie a récemment ouvert des liaisons aériennes pour transporter des denrées. Son dirigeable, le <em>Star Goddess</em>, parti de Ruan ❓ sur la côte des Épées, est attendu depuis longtemps sans jamais être arrivé. Il se serait échoué sur l'île : plutôt là qu'en pleine mer, où l'équipage ne pourrait pas se réapprovisionner. Si on le voit, il faudra le signaler.</li>
+</ul>
+<h3 id="diner-chez-kaya-et-l-offre-de-salida">Dîner chez Kaya et l'offre de Salida</h3>
+<p>À la <a class="wl cat-lieux" href="../lieux/maison-de-repos-de-kaya.html">Maison de repos de Kaya</a>, salle pleine. Kaya sert une soupe de langouste au curry vert (repas compris) et propose le <strong>tej</strong>, boisson fermentée locale au miel, pétillante comme un hydromel (boissons payantes). Le groupe se demande si le plat est empoisonné ; rien à signaler.</p>
+<p>Au fond, une femme seule observe la table : humaine, brune, longue queue de cheval, peau mate, regard sévère, un tatouage sur l'œil. <a class="wl cat-personnages" href="../personnages/kael.html">Kael</a> reconnaît <strong><a class="wl cat-pnj" href="../pnj/salida.html">Salida</a></strong>, une des guides des prospectus (<a class="wl cat-factions" href="../factions/guilde-des-guides.html">Guilde des guides</a>). Kaya apporte de sa part des nachos et un mot : la guide qu'on a choisie « ne pourra en rien rivaliser » avec elle.</p>
+<p>Elle vient à la table :</p>
+<ul>
+<li>guide sur <a class="wl cat-lieux" href="../lieux/chult.html">Chult</a> depuis plus de 30 ans ; 99 % des groupes qu'elle a guidés sont revenus vivants, souvent riches ; se dit « la plus douée », en tout cas « la plus versatile » ;</li>
+<li>son contrat engage envers le client, pas envers ses propres intérêts, contrairement aux guides qui font servir les aventuriers à leurs propres affaires. Faire un détour pour la quête d'un guide fait perdre un temps précieux ;</li>
+<li>les tarifs sont réglementés et identiques pour tous : moins cher serait de la concurrence déloyale, plus cher de l'extorsion.</li>
+</ul>
+<p><a class="wl cat-personnages" href="../personnages/destos.html">Destos</a> la juge parfaitement sincère (intuition). Le groupe refuse quand même : il est engagé envers Azaka, et avec ~35 po chacun (≈ 140 po), il ne pourrait pas payer les 30 jours d'avance. Destos va le lui dire poliment ; elle n'insiste pas et quitte l'auberge.</p>
+<p><a href="../assets/seances/08/rencontre-salida.webp" class="img"><img src="../assets/seances/08/rencontre-salida.webp" alt="rencontre-salida" width="500" loading="lazy"></a></p>
+<h3 id="la-nuit-et-le-depart">La nuit et le départ</h3>
+<p>Avant de dormir, <a class="wl cat-personnages" href="../personnages/morrys.html">Morrÿs</a> essaie la baguette des secrets dans sa chambre : rien. Kael dort mal et rêve d'un ouragan et d'une vague qui les engloutit.</p>
+<p>À l'aube, Azaka attend déjà devant l'auberge, adossée au panneau des guides, jouant avec son collier de perles. Il fait beau, humide, une vingtaine de degrés, petite brise du nord. Le groupe saute le petit-déjeuner, rend ses clés à Kaya et part avec le <a class="wl cat-objets" href="../objets/canoe.html">canoë</a>.</p>
+<p>Azaka sort de la ville par la porte sud, à travers un quartier où vivent des humanoïdes félins, des <strong>tabaxis</strong>. On se passe la lotion anti-insectes. Ensuite, plaines puis jungle.</p>
+<p><a href="../assets/seances/08/depart-port-nyanzaru.webp" class="img"><img src="../assets/seances/08/depart-port-nyanzaru.webp" alt="depart-port-nyanzaru" width="500" loading="lazy"></a></p>
+<ul>
+<li>Il faut descendre plein sud par la rivière la plus à l'est : <strong>au moins six jours de canoë</strong>. Peu de morts-vivants le long de l'eau.</li>
+<li>Il est très facile de se perdre : sous la canopée, on voit la lumière mais pas le soleil. Azaka connaît le chemin, mais demande à tous d'être vigilants.</li>
+<li>Règles de voyage (MJ) : on choisit une direction ; on avance d'un hexagone par jour à pied, de deux en canoë. Accélérer rend l'orientation plus difficile, ralentir la facilite ; la météo joue aussi.</li>
+<li>Dans le canoë : <a class="wl cat-personnages" href="../personnages/obelik.html">Obélik</a> seul au milieu, Destos et Kael devant, Azaka et Morrÿs à l'arrière.</li>
+</ul>
+<h3 id="les-araignees-du-canal">Les araignées du canal</h3>
+<p>Le premier matin, la jungle s'éclaircit à un virage. Kael entend des glissements, comme quelque chose qui tisse, puis voit des filaments presque invisibles tendus d'une rive à l'autre. Azaka fait arrêter le canoë : <strong>deux araignées géantes</strong>.</p>
+<ul>
+<li>Obélik lance une hachette (perdue dans la rivière), tombe à l'eau en croyant avoir pied et nage jusqu'à la rive.</li>
+<li>Kael pose sa marque du chasseur et touche à l'arc, puis frappe à l'épée courte et au cimeterre. Destos lance <em>Bénédiction</em> sur Kael, Obélik et Morrÿs. Morrÿs rate deux fois au <em>Trait de feu</em> mais touche et ralentit une araignée au <em>Rayon de givre</em>.</li>
+<li>Une araignée mord Azaka au bras : <strong>pas une goutte de sang, la plaie semble déjà se refermer</strong> (vu par Kael seul). Azaka tue cette araignée au yklwa ; elle retombe dans l'eau.</li>
+<li>L'autre mord Obélik, qui encaisse sans dégâts grâce à son endurance de la pierre mais subit 5 dégâts de poison. Il la décapite à la hache.</li>
+</ul>
+<p><a href="../assets/seances/08/combat-araignees.webp" class="img"><img src="../assets/seances/08/combat-araignees.webp" alt="combat-araignees" width="500" loading="lazy"></a></p>
+<h2 id="chronologie">Chronologie</h2>
+<ol>
+<li>Fin d'après-midi : retour à la capitainerie (météo, maladies, morts-vivants, <em>Star Goddess</em>).</li>
+<li>Soirée chez Kaya : dîner, offre de Salida déclinée.</li>
+<li>Nuit : baguette des secrets (rien), cauchemar de Kael.</li>
+<li>Aube : départ avec Azaka par la porte sud et le quartier tabaxi, puis descente de la rivière.</li>
+<li>Premier matin sur la rivière : combat contre deux araignées géantes.</li>
+</ol>
+<h2 id="pnj-rencontres">PNJ rencontrés</h2>
+<ul>
+<li><a class="wl cat-pnj" href="../pnj/capitaine-du-port.html">Capitaine du port</a> : conseils pour la jungle, rumeur du dirigeable.</li>
+<li><a class="wl cat-pnj" href="../pnj/kaya.html">Kaya</a> : sert le dîner, récupère les clés.</li>
+<li><a class="wl cat-pnj" href="../pnj/salida.html">Salida</a> : propose ses services, refusée.</li>
+<li><a class="wl cat-pnj" href="../pnj/azaka-stormfang.html">Azaka Stormfang</a> : guide le groupe, tue une araignée ; plaie étrange.</li>
+</ul>
+<h2 id="quetes">Quêtes</h2>
+<ul>
+<li><a class="wl cat-quetes" href="../quetes/le-masque-d-azaka.html">Le masque d&#x27;Azaka</a> : avancée (départ en canoë).</li>
+<li><a class="wl cat-quetes" href="../quetes/le-gardien-bouclier.html">Le Gardien Bouclier</a> : avancée (en route vers <a class="wl cat-lieux" href="../lieux/vorn.html">Vorn</a>).</li>
+<li><a class="wl cat-quetes" href="../quetes/le-mal-des-ressuscites.html">Le mal des ressuscités</a> : avancée (départ dans la jungle).</li>
+</ul>
+<h2 id="butin-et-recompenses">Butin et récompenses</h2>
+<ul>
+<li>+30 XP par personne.</li>
+<li>~~Perdu : une hachette d'Obélik, tombée dans la rivière.~~ Retrouvée dans les feuilles (<a class="wl cat-seances" href="../seances/seance-09.html">Séance 09</a>).</li>
+<li>Rappel d'inventaire : chacun a une potion de soin et un antipoison (<a class="wl cat-seances" href="../seances/seance-03.html">Séance 03</a>) ; un attrape-pluie (Morrÿs).</li>
+</ul>
+<h2 id="citations-et-moments-marquants">Citations et moments marquants</h2>
+<blockquote>
+<p>« Comme on dit ici, la meilleure des protections, c'est de ne pas contracter la maladie. » — le capitaine du port</p>
+<p>« Sachez que votre sécurité, à mon sens, n'a pas de prix. » — Salida</p>
+</blockquote>
+<ul>
+<li>Obélik saute du canoë en croyant avoir pied.</li>
+</ul>
+<h2 id="questions-ouvertes">Questions ouvertes</h2>
+<ul>
+<li class="task"><input type="checkbox" disabled> Pourquoi la plaie d'Azaka se referme-t-elle sans saigner ?</li>
+<li class="task"><input type="checkbox" disabled> Où s'est échoué le <em>Star Goddess</em> ? D'où vient-il exactement (« Ruan ») ?</li>
+<li class="task"><input type="checkbox" disabled> Pourquoi Salida surveillait-elle le groupe ?</li>
+</ul>
+<h2 id="sources">Sources</h2>
+<ul>
+<li>Notes de Mathieu (inbox, 6 octobre, 2 pages manuscrites)</li>
+<li>Transcription Discord du bot Scriptly (<code>discord-seance-2026-10-06.txt</code>, fidélité approximative)</li>
+<li>Récit du collègue : <code>sources/alan-pas-riche/chapter/0008_la_toile_sur_la_riviere.tex</code></li>
+<li>Illustrations ajoutées par Mathieu (Salida, départ, combat)</li>
+</ul></article><section class="backlinks"><h2>🔗 Mentionné dans</h2><div class="bl-grid"><div><h4>Séances</h4><ul><li><a href="../seances/seance-09.html">Séance 09 — Première nuit dans la jungle</a></li></ul></div><div><h4>Quêtes</h4><ul><li><a href="../quetes/le-gardien-bouclier.html">Le Gardien Bouclier</a></li><li><a href="../quetes/le-mal-des-ressuscites.html">Le mal des ressuscités</a></li><li><a href="../quetes/le-masque-d-azaka.html">Le masque d&#x27;Azaka</a></li></ul></div><div><h4>Personnages</h4><ul><li><a href="../personnages/destos.html">Destos</a></li><li><a href="../personnages/kael.html">Kael</a></li><li><a href="../personnages/morrys.html">Morrÿs</a></li><li><a href="../personnages/obelik.html">Obélik</a></li></ul></div><div><h4>PNJ</h4><ul><li><a href="../pnj/azaka-stormfang.html">Azaka Stormfang</a></li><li><a href="../pnj/capitaine-du-port.html">Capitaine du port</a></li><li><a href="../pnj/kaya.html">Kaya</a></li><li><a href="../pnj/salida.html">Salida</a></li></ul></div><div><h4>Lieux</h4><ul><li><a href="../lieux/capitainerie.html">Capitainerie</a></li><li><a href="../lieux/chult.html">Chult</a></li><li><a href="../lieux/maison-de-repos-de-kaya.html">Maison de repos de Kaya</a></li><li><a href="../lieux/port-nyanzaru.html">Port Nyanzaru</a></li></ul></div><div><h4>Factions</h4><ul><li><a href="../factions/guilde-des-guides.html">Guilde des guides</a></li></ul></div><div><h4>Objets</h4><ul><li><a href="../objets/canoe.html">Canoë</a></li></ul></div><div><h4>Pages</h4><ul><li><a href="../chronologie.html">Chronologie</a></li><li><a href="../questions-ouvertes.html">Questions ouvertes</a></li></ul></div></div></section><nav class="prevnext"><a href="../seances/seance-07.html">← Séance 07 — Un guide et un canoë</a><a href="../seances/seance-09.html">Séance 09 — Première nuit dans la jungle →</a></nav></main>
+<script>window.SITE_PREFIX = "../";</script>
+<script src="../search.js"></script>
+</body>
+</html>
