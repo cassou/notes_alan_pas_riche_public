@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Séance 11 — Le premier palier · Campagne</title>
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<button class="menu-toggle" onclick="document.body.classList.toggle('nav-open')" aria-label="Menu">☰</button>
+<aside class="sidebar">
+  <div class="search"><input id="q" type="search" placeholder="Rechercher… ( / )" autocomplete="off"><ul id="results"></ul></div>
+  <nav><a class="home" href="../index.html">🎲 Campagne</a><a class="extra" href="../chronologie.html">Chronologie</a><a class="extra" href="../questions-ouvertes.html">Questions ouvertes</a><a class="extra" href="../graphe.html">🕸️ Graphe des relations</a><details open><summary><a href="../seances/index.html">📜 Séances</a><span class="count">12</span></summary><ul><li><a href="../seances/seance-12.html">Séance 12 — Les stirges</a></li><li><a href="../seances/seance-11.html" class=current>Séance 11 — Le premier palier</a></li><li><a href="../seances/seance-10.html">Séance 10 — Firefinger</a></li><li><a href="../seances/seance-09.html">Séance 09 — Première nuit dans la jungle</a></li><li><a href="../seances/seance-08.html">Séance 08 — Des toiles sur la rivière</a></li><li><a href="../seances/seance-07.html">Séance 07 — Un guide et un canoë</a></li><li><a href="../seances/seance-06.html">Séance 06 — Les guides de Port Nyanzaru</a></li><li><a href="../seances/seance-05.html">Séance 05 — Port Nyanzaru</a></li><li><a href="../seances/seance-04.html">Séance 04 — L&#x27;Effleureuse</a></li><li><a href="../seances/seance-03.html">Séance 03 — Les Faiseurs de Veuves</a></li><li><a href="../seances/seance-02.html">Séance 02 — La route de Phandalin</a></li><li><a href="../seances/seance-01.html">Séance 01 — La Faille de Waterdeep</a></li></ul></details><details><summary><a href="../quetes/index.html">🗺️ Quêtes</a><span class="count">4</span></summary><ul><li><a href="../quetes/le-gardien-bouclier.html">Le Gardien Bouclier</a></li><li><a href="../quetes/le-mal-des-ressuscites.html">Le mal des ressuscités</a></li><li><a href="../quetes/le-masque-d-azaka.html">Le masque d&#x27;Azaka</a></li><li><a href="../quetes/rejoindre-phandalin.html">Rejoindre Phandalin</a></li></ul></details><details><summary><a href="../personnages/index.html">🛡️ Personnages</a><span class="count">4</span></summary><ul><li><a href="../personnages/destos.html">Destos</a></li><li><a href="../personnages/kael.html">Kael</a></li><li><a href="../personnages/morrys.html">Morrÿs</a></li><li><a href="../personnages/obelik.html">Obélik</a></li></ul></details><details><summary><a href="../pnj/index.html">👤 PNJ</a><span class="count">20</span></summary><ul><li><a href="../pnj/alan.html">Alan</a></li><li><a href="../pnj/arlan.html">Arlan</a></li><li><a href="../pnj/azaka-stormfang.html">Azaka Stormfang</a></li><li><a href="../pnj/capitaine-du-port.html">Capitaine du port</a></li><li><a href="../pnj/corrin-thinspike.html">Corrin Thinspike</a></li><li><a href="../pnj/corvis-quillfore.html">Corvis Quillfore</a></li><li><a href="../pnj/jeanne-von-brocht.html">Jeanne Von Brocht</a></li><li><a href="../pnj/kaya.html">Kaya</a></li><li><a href="../pnj/la-creature-invisible.html">La créature invisible</a></li><li><a href="../pnj/la-paire.html">La Paire</a></li><li><a href="../pnj/le-capitaine-de-la-bite.html">Le capitaine de la BITE</a></li><li><a href="../pnj/le-domestique-de-wakanga.html">Le domestique de Wakanga</a></li><li><a href="../pnj/lyra-sunstrike.html">Lyra Sunstrike</a></li><li><a href="../pnj/neverember.html">Neverember</a></li><li><a href="../pnj/river-mist-et-flask-of-wine.html">River Mist et Flask of Wine</a></li><li><a href="../pnj/salida.html">Salida</a></li><li><a href="../pnj/syndra.html">Syndra</a></li><li><a href="../pnj/virgile.html">Virgile</a></li><li><a href="../pnj/wakanga-o-tamu.html">Wakanga O&#x27;Tamu</a></li><li><a href="../pnj/yarno-el-raib.html">Yarno El Raïb</a></li></ul></details><details><summary><a href="../lieux/index.html">🏰 Lieux</a><span class="count">16</span></summary><ul><li><a href="../lieux/capitainerie.html">Capitainerie</a></li><li><a href="../lieux/chult.html">Chult</a></li><li><a href="../lieux/firefinger.html">Firefinger</a></li><li><a href="../lieux/fort-beluarian.html">Fort Beluarian</a></li><li><a href="../lieux/grand-souk.html">Grand Souk</a></li><li><a href="../lieux/leilon.html">Leilon</a></li><li><a href="../lieux/lezard-tonnant.html">Lézard tonnant</a></li><li><a href="../lieux/maison-de-repos-de-kaya.html">Maison de repos de Kaya</a></li><li><a href="../lieux/phandalin.html">Phandalin</a></li><li><a href="../lieux/port-nyanzaru.html">Port Nyanzaru</a></li><li><a href="../lieux/prison-de-waterdeep.html">Prison de Waterdeep</a></li><li><a href="../lieux/qg-des-faiseurs-de-veuves.html">QG des Faiseurs de Veuves</a></li><li><a href="../lieux/temple-de-gond.html">Temple de Gond</a></li><li><a href="../lieux/villa-de-wakanga-o-tamu.html">Villa de Wakanga O&#x27;Tamu</a></li><li><a href="../lieux/vorn.html">Vorn</a></li><li><a href="../lieux/waterdeep.html">Waterdeep</a></li></ul></details><details><summary><a href="../factions/index.html">⚜️ Factions</a><span class="count">6</span></summary><ul><li><a href="../factions/brigade-d-intervention-technique-et-expeditive.html">Brigade d&#x27;Intervention Technique et Expéditive</a></li><li><a href="../factions/enclave-d-emeraude.html">Enclave d&#x27;Émeraude</a></li><li><a href="../factions/faiseurs-de-veuves.html">Faiseurs de Veuves</a></li><li><a href="../factions/guilde-des-guides.html">Guilde des guides</a></li><li><a href="../factions/princes-marchands.html">Princes marchands</a></li><li><a href="../factions/zhentarim.html">Zhentarim</a></li></ul></details><details><summary><a href="../objets/index.html">💎 Objets</a><span class="count">7</span></summary><ul><li><a href="../objets/canoe.html">Canoë</a></li><li><a href="../objets/figurines-de-chwinga.html">Figurines de chwinga</a></li><li><a href="../objets/gardien-bouclier.html">Gardien Bouclier</a></li><li><a href="../objets/journal-de-la-naine.html">Journal de la naine</a></li><li><a href="../objets/l-effleureuse.html">L&#x27;Effleureuse</a></li><li><a href="../objets/lettre-de-la-paire.html">Lettre de la Paire</a></li><li><a href="../objets/soulmonger.html">Soulmonger</a></li></ul></details></nav>
+  <p class="generated">Généré le 24/11/2026 à 22:52 (commit 0a1e7c5)</p>
+</aside>
+<main><header class="page-head"><span class="kind">📜 Séances</span><h1>Séance 11 — Le premier palier</h1></header><nav class="prevnext"><a href="../seances/seance-10.html">← Séance 10 — Firefinger</a><a href="../seances/seance-12.html">Séance 12 — Les stirges →</a></nav><table class="props"><tr><th>numero</th><td>11</td></tr><tr><th>date</th><td>17/11/2026</td></tr><tr><th>resume</th><td>Montée de la première échelle de Firefinger, embuscade de quatre araignées dans une fosse (Morrÿs tombe à 0 PV), puis ascension laborieuse d'une corde jusqu'au deuxième palier.</td></tr><tr><th>lieux</th><td><a class="wl cat-lieux" href="../lieux/firefinger.html">Firefinger</a></td></tr><tr><th>pnj</th><td><a class="wl cat-pnj" href="../pnj/azaka-stormfang.html">Azaka Stormfang</a></td></tr></table><article><h2 id="resume-rapide">Résumé rapide</h2>
+<p>La dernière fois, on a monté la première échelle de <a class="wl cat-lieux" href="../lieux/firefinger.html">Firefinger</a> un par un, de nuit. <a class="wl cat-pnj" href="../pnj/azaka-stormfang.html">Azaka</a> a le vertige, mais elle a suivi. En haut, une grotte noire avec une fosse de trois mètres. Quand on y est descendus, quatre araignées nous ont pris par surprise. <a class="wl cat-personnages" href="../personnages/morrys.html">Morrÿs</a> s'est éloigné, a pris deux attaques d'opportunité, puis la hache d'<a class="wl cat-personnages" href="../personnages/obelik.html">Obélik</a>, qui l'a mis à terre. <a class="wl cat-personnages" href="../personnages/destos.html">Destos</a> l'a stabilisé. On a tué les quatre araignées. Azaka a été mordue : la plaie s'est refermée sans saigner, et cette fois tout le monde l'a vu. Ensuite, une corde d'environ 25 mètres montait au palier suivant. Elle nous a donné du mal : Kael est tombé, Destos a raté plusieurs fois. On est tous arrivés au deuxième palier, dans le noir.</p>
+<h2 id="resume">Résumé</h2>
+<h3 id="la-premiere-echelle">La première échelle</h3>
+<p>Au pied de l'échelle, <a class="wl cat-personnages" href="../personnages/morrys.html">Morrÿs</a> (perception 21) remarque qu'<a class="wl cat-pnj" href="../pnj/azaka-stormfang.html">Azaka</a> transpire et respire fort : <strong>elle a le vertige</strong> (« On est quand même bien mieux au sol »). Elle estime la tour à <strong>300 pieds (~90 m)</strong>. L'échelle en fait <strong>60 pieds (~18 m)</strong>. Lumière : la lune et la flamme du sommet.</p>
+<p>Destos propose deux groupes, un discret qui monte et un qui reste en bas. Le groupe refuse : ceux d'en haut seraient seuls, et ceux d'en bas feraient du bruit sous les ptérafolks. On monte tous, <strong>un par un</strong>, pour couvrir celui qui grimpe. Ordre : <a class="wl cat-personnages" href="../personnages/kael.html">Kael</a>, Morrÿs, Azaka, <a class="wl cat-personnages" href="../personnages/obelik.html">Obélik</a>, <a class="wl cat-personnages" href="../personnages/destos.html">Destos</a>. Signes convenus : un cercle avec les mains si tout va bien, une croix sinon.</p>
+<ul>
+<li>En tête, Kael monte sans bruit. Le vent forcit. En haut, une corniche et l'entrée d'une grotte obscure. Avec sa vision dans le noir, il voit un mur à ~7,5 m et un trou un peu avant. Il n'entend rien et fait le cercle.</li>
+<li>Ensuite, Morrÿs monte et lance <em>Ruse de la pierre</em> (sens des vibrations, 18 m, 10 minutes) : rien.</li>
+<li>Puis Azaka monte en tremblant à chaque barreau, puis s'allonge au sol : « Ok, je suis montée. »</li>
+<li>Sans torche (elle est dans son sac), Obélik ne voit rien dans la grotte.</li>
+<li>En dernier, Destos lance <em>Lumière</em> sur son symbole sacré et le cache sous ses vêtements : lumière faible sur 6 m. Il reste près d'Obélik.</li>
+</ul>
+<h3 id="l-embuscade-des-araignees">L'embuscade des araignées</h3>
+<p><a href="../assets/seances/11/embuscade-araignees.webp" class="img"><img src="../assets/seances/11/embuscade-araignees.webp" alt="embuscade-araignees" width="500" loading="lazy"></a></p>
+<p>Au pied de Kael, une <strong>fosse de 3 m</strong> ; au-delà, une partie surélevée. Le groupe descend dans la fosse, sauf Kael, resté au bord. Quatre <strong>araignées</strong> surgissent et attaquent par surprise. Leurs morsures font des dégâts perforants et du poison (jet de Constitution).</p>
+<ul>
+<li>Tour de surprise : Destos mordu au cou (11), Morrÿs (5, résistance naine au poison), Obélik (8).</li>
+<li>Obélik encaisse une morsure grâce à <em>Endurance de la pierre</em> (aucun dégât), puis entre en <strong>rage</strong> et tue une araignée à la hache.</li>
+<li>Destos soigne Obélik (Conduit divin, +8) et lui-même (<em>Mot de guérison</em>, +10). Plus tard, <em>Glas</em> (8 dégâts nécrotiques).</li>
+<li>Kael déplace sa <em>Marque du chasseur</em> du ptérafolk vers une araignée et la tue à l'arc depuis le bord.</li>
+<li>Morrÿs rate un <em>Trait de feu</em> (désavantage au contact), recule derrière Obélik et prend <strong>deux attaques d'opportunité</strong> : 3 PV.</li>
+<li><strong>Échec critique d'Obélik</strong> : sa hache lui échappe et frappe Morrÿs, derrière lui. Morrÿs tombe à <strong>0 PV</strong>.</li>
+<li>Azaka tue une araignée à l'arc, saute dans la fosse et en blesse une autre à l'épée.</li>
+<li>La dernière araignée <strong>mord Azaka au bras</strong> : tout le monde voit le poison s'infiltrer, puis <strong>la plaie se refermer aussitôt, sans une goutte de sang</strong>. « Comme sur le bateau », dit Kael (voir <a class="wl cat-seances" href="../seances/seance-08.html">Séance 08</a>).</li>
+<li>Jet contre la mort réussi pour Morrÿs ; Destos le <strong>stabilise</strong> (<em>Stabilisation</em>).</li>
+<li>Désarmé, Obélik tue la dernière araignée d'un coup de poing qui lui écrase la mâchoire.</li>
+</ul>
+<h3 id="apres-le-combat">Après le combat</h3>
+<p>Morrÿs se réveille avec 1 PV et boit sa <strong>potion de soin</strong> (+8, celle de <a class="wl cat-pnj" href="../pnj/yarno-el-raib.html">Yarno</a>, <a class="wl cat-seances" href="../seances/seance-03.html">Séance 03</a>). Le MJ reconnaît que le sens des vibrations aurait dû détecter les araignées quand elles ont bougé : Morrÿs n'aurait pas été surpris. Il lui rend <strong>8 PV</strong>. Obélik boit aussi sa potion. Azaka a de quoi soigner en cas de besoin, mais il vaut mieux garder ses réserves. Destos a déjà dépensé une bonne partie de ses soins ; pas de repos long en vue.</p>
+<ul>
+<li><strong>2 flèches</strong> récupérées par Kael.</li>
+<li>Leçon : ne pas s'éloigner d'un ennemi au contact, ou utiliser l'action <em>Se désengager</em>.</li>
+</ul>
+<h3 id="la-corde">La corde</h3>
+<p>On escalade le mur de 3 m (lianes, prises faciles). Azaka y bondit d'un saut, comme un chat. Destos fait d'abord le tour de la fosse avec <em>Détection de la magie</em> en rituel (10 minutes) : rien. Il glisse une fois, puis monte.</p>
+<p>Là-haut, une petite salle avec, au centre, une <strong>corde qui monte à la verticale sur environ 80 pieds (~25 m)</strong>, plus haut que la première échelle. La fouille ne donne rien : rocaille, crevasses. Azaka explique que Firefinger était une <strong>tour de guet chultaine</strong> pour surveiller les environs. Selon elle, il n'y a sans doute qu'un seul chemin : on contrôlait ceux qui montaient pour pouvoir les refouler. La corde semble solide.</p>
+<ul>
+<li>Deux échecs pour Kael ; au second essai, malgré la courte échelle d'Obélik, il chute (2 dégâts).</li>
+<li>Premier essai raté pour Morrÿs.</li>
+<li>À mi-hauteur, Azaka fait une <strong>crise d'angoisse</strong> ; Kael la calme à la voix (« Souffle, écoute ma voix »). Elle arrive en haut.</li>
+<li>Les yeux fermés, Obélik monte et arrive dans le noir complet ; il cherche l'épaule d'Azaka et ne la trouve pas.</li>
+<li>Second essai réussi pour Morrÿs. Destos rate, lance <em>Assistance</em> sur Kael, qui réussit au troisième essai, puis sur lui-même : il monte à son tour.</li>
+</ul>
+<p>Tout le groupe est au <strong>deuxième palier</strong>, éclairé par la lumière de Destos. Fin de séance ; suite de l'ascension la semaine prochaine.</p>
+<h2 id="chronologie">Chronologie</h2>
+<ol>
+<li>Nuit : Azaka avoue son vertige ; montée de la première échelle un par un.</li>
+<li>Première grotte : embuscade de quatre araignées dans la fosse ; Morrÿs à 0 PV, stabilisé.</li>
+<li>Soins (potions), escalade du mur de 3 m, fouille de la salle.</li>
+<li>Ascension de la corde (~25 m) jusqu'au deuxième palier.</li>
+</ol>
+<h2 id="pnj-rencontres">PNJ rencontrés</h2>
+<ul>
+<li><a class="wl cat-pnj" href="../pnj/azaka-stormfang.html">Azaka Stormfang</a> : vertige ; combat à l'arc et à l'épée ; sa morsure se referme sans saigner, sous les yeux de tous ; explique que Firefinger était une tour de guet.</li>
+</ul>
+<h2 id="quetes">Quêtes</h2>
+<ul>
+<li><a class="wl cat-quetes" href="../quetes/le-masque-d-azaka.html">Le masque d&#x27;Azaka</a> : avancée (premier palier franchi, groupe au deuxième).</li>
+<li><a class="wl cat-quetes" href="../quetes/le-mal-des-ressuscites.html">Le mal des ressuscités</a> : la plaie d'Azaka se referme encore sans saigner (lien ❓).</li>
+</ul>
+<h2 id="butin-et-recompenses">Butin et récompenses</h2>
+<ul>
+<li><strong>+20 XP</strong> chacun (araignées) ; Morrÿs à 190/900.</li>
+<li>Dépensé : les potions de soin de Morrÿs et d'Obélik.</li>
+<li>Kael récupère 2 flèches.</li>
+</ul>
+<h2 id="citations-et-moments-marquants">Citations et moments marquants</h2>
+<blockquote>
+<p>« On est quand même bien mieux au sol, si vous voulez mon avis. » — Azaka</p>
+<p>« Je suis une torche humaine. » — Destos</p>
+</blockquote>
+<ul>
+<li>Obélik qui assomme Morrÿs d'un revers de hache, puis tue la dernière araignée à mains nues.</li>
+<li>« Ce ne sont pas des monstres qu'il faut mettre, c'est des cordes. » — le MJ</li>
+</ul>
+<h2 id="questions-ouvertes">Questions ouvertes</h2>
+<ul>
+<li class="task"><input type="checkbox" disabled> Pourquoi la plaie d'Azaka se referme-t-elle sans saigner ? (de nouveau, devant tout le groupe)</li>
+<li class="task"><input type="checkbox" disabled> Qu'y a-t-il aux paliers suivants de Firefinger (cinq étages environ, si tous font la même hauteur) ?</li>
+</ul>
+<h2 id="sources">Sources</h2>
+<ul>
+<li>Transcription Discord de Mathieu (bot enregistreur, par intervenant), 17 novembre</li>
+<li>Réponses de Mathieu : corde de 80 pieds, « niveau 2 » = deuxième palier, PV rendus à Morrÿs</li>
+<li>Récit du collègue : chapitre 11, « Le premier palier » (<code>0011_le_premier_palier.tex</code>), conforme à cette fiche ; il reprend notre illustration de l'embuscade</li>
+</ul></article><section class="backlinks"><h2>🔗 Mentionné dans</h2><div class="bl-grid"><div><h4>Quêtes</h4><ul><li><a href="../quetes/le-mal-des-ressuscites.html">Le mal des ressuscités</a></li><li><a href="../quetes/le-masque-d-azaka.html">Le masque d&#x27;Azaka</a></li></ul></div><div><h4>Personnages</h4><ul><li><a href="../personnages/destos.html">Destos</a></li><li><a href="../personnages/kael.html">Kael</a></li><li><a href="../personnages/morrys.html">Morrÿs</a></li><li><a href="../personnages/obelik.html">Obélik</a></li></ul></div><div><h4>PNJ</h4><ul><li><a href="../pnj/azaka-stormfang.html">Azaka Stormfang</a></li></ul></div><div><h4>Lieux</h4><ul><li><a href="../lieux/firefinger.html">Firefinger</a></li></ul></div><div><h4>Pages</h4><ul><li><a href="../chronologie.html">Chronologie</a></li><li><a href="../questions-ouvertes.html">Questions ouvertes</a></li></ul></div></div></section><nav class="prevnext"><a href="../seances/seance-10.html">← Séance 10 — Firefinger</a><a href="../seances/seance-12.html">Séance 12 — Les stirges →</a></nav></main>
+<script>window.SITE_PREFIX = "../";</script>
+<script src="../search.js"></script>
+</body>
+</html>
